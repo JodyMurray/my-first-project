@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=PT+Sans+Narrow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #FAFCF8;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    color: #4a4a4a;
+    font-size: larger;
+}
+/*headings and logo*/
+h1, h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #719B43;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+h3 {
+    text-align: justify;
+    color: #4a4a4a;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+#logo {
+    float: left;
+    font-size: 250%;
+    background: transparent;
+    
+}
+#top {
+    background: transparent;
+
+}
+/*navigation links*/
+
+#menu-bar {
+    font-size: 120%;
+    letter-spacing: 5px;
+    font-weight: bold;
+    padding: 20px;
+}
+#menu-bar a {
+    text-decoration: none;
+    color: rgb(220, 108, 51);
+}
+
+#menu-bar, #logo {
+    line-height: 75px;
+}
+#menu-bar a:hover {
+    border-bottom: 1px solid rgb(220, 108, 51);}
+
+#menu-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.active {
+    border-bottom: none;
+}
+/*hero image*/
+#hero-image {
+        background-image: url(../assets/images/hero-image.jpeg);
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+.hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10px;}
+
+#review {
+    font-family: cursive;
+    color: #4a4a4a;
+}
+
+ /*biography and portrait*/
+ #biography {
+     background-image: url('../assets/images/robin-hobb.jpeg');
+     height: 500px;
+     width: 100%;
+     position: relative;
+     background-repeat: no-repeat;
+     background-size: contain;
+     margin-top: -10%;
+     margin-left: 20px;
+
+ }
+ #middle-content {
+        width: 70%;
+        height: 30px;
+        float: right;
+        display: block;
+        margin-left: 30px;
+        margin-top: 50px;
+        padding: 2%;
+        font-family: 'PT Sans Narrow', sans-serif;
+ }
