@@ -13,8 +13,10 @@ body {
     color: #4a4a4a;
     font-size: larger;
 }
+
 /*headings and logo*/
-h1, h3 {
+h1,
+h3 {
     font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -23,7 +25,7 @@ h1, h3 {
     padding: 20px;
 }
 
-#megan {
+.megan {
     text-align: justify;
     color: #888E8E;
     padding: 4px;
@@ -35,16 +37,18 @@ hr {
     width: 100%;
     margin: 5px 0;
 }
+
 #logo {
     float: left;
     font-size: 250%;
     background: transparent;
-    
+
 }
+
 #top {
     background: transparent;
 }
-    
+
 
 /*navigation links*/
 
@@ -54,16 +58,20 @@ hr {
     font-weight: bold;
     padding: 20px;
 }
+
 #menu-bar a {
     text-decoration: none;
     color: rgb(220, 108, 51);
 }
 
-#menu-bar, #logo {
+#menu-bar,
+#logo {
     line-height: 75px;
 }
+
 #menu-bar a:hover {
-    border-bottom: 1px solid rgb(220, 108, 51);}
+    border-bottom: 1px solid rgb(220, 108, 51);
+}
 
 #menu-bar li {
     float: right;
@@ -74,15 +82,16 @@ hr {
 .active {
     border-bottom: none;
 }
+
 /*hero image*/
 #hero-image {
-        background-image: url(../assets/images/hero-image.jpeg);
-        height: 400px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
+    background-image: url(../assets/images/hero-image.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .hero-outer {
     height: 600px;
@@ -90,8 +99,9 @@ hr {
     overflow: hidden;
     position: relative;
     margin-left: 10px;
-    padding-top: 40px;}
-     
+    padding-top: 40px;
+}
+
 
 .reviews {
     font-family: cursive;
@@ -100,40 +110,79 @@ hr {
     text-align: center;
 }
 
- /*biography and portrait*/
- #biography {
-     background-image: url('../assets/images/robin-hobb.jpeg');
-     height: 500px;
-     width: 100%;
-     position: relative;
-     background-repeat: no-repeat;
-     background-size: contain;
-     margin-bottom: -10%;
-     margin-left: 20px;
-     text-align: center;
+/*biography and portrait*/
+#biography {
+    background-image: url('../assets/images/robin-hobb.jpeg');
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+    text-align: center;
 
- }
- #middle-content {
-        width: 70%;
-        height: 30px;
-        float: right;
-        display: block;
-        margin-left: 30px;
-        margin-top: 50px;
-        padding: 2%;
-        font-family: 'PT Sans Narrow', sans-serif;
- }
- #middle-review {
-     font-size: larger;
-     margin-bottom: 20%;
-     background-image: url;
-     height: 600px;
-     width: 50%;
-     position: relative;
-     background-repeat: no-repeat;
-     background-size: contain;
-     margin-bottom: -20%;
-     margin-left: 25%;
-     opacity: 80%;
-     text-align: center;
- }
+}
+
+#middle-content {
+    width: 70%;
+    height: 30px;
+    float: right;
+    display: block;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 2%;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#middle-review {
+    font-size: larger;
+    height: 600px;
+    width: 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: -20%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+/*social networks & footer*/
+footer {
+    height: 190px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 130%;
+    margin: 30px 0 30px 0;
+    padding: 5%;
+    color: black;
+}
+footer > h2 {
+    text-align: center;
+    color: #888E8E;
+    padding-top: 10%;
+}
+
+#books1 {
+    background-image: url('../assets/images/farseer.webp');
+    height: 500px;
+    width: 100%;
+    position: inherit;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    margin: 2% 0 0 5%;
+}
+.series {
+   margin-top: 10%;
+   margin-left: 14%;
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-size: larger;
+}
