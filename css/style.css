@@ -108,6 +108,8 @@ hr {
     color: #888E8E;
     margin-bottom: 20px;
     text-align: center;
+    position: relative;
+    text-transform: none;
 }
 
 /*biography and portrait*/
@@ -200,4 +202,10 @@ footer > h2 {
     margin-right: 5%;
     margin-bottom: 5%;
     text-align: center;
+}
+#times { 
+    margin-top: 20%;
+    font-family: cursive;
+    color: #888E8E;
+    text-transform: none;
 }
