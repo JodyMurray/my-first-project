@@ -209,3 +209,52 @@ footer > h2 {
     color: #888E8E;
     text-transform: none;
 }
+/*meetup section styling*/
+.meetup-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+.book-club {
+    background-image: url(../assets/images/wine.jpeg);
+    height: 500px;
+    width: 80%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: -20%;
+    text-align: center;
+}
+
+.email  {
+    text-align: center;
+    padding: 10%;
+    font-size: larger;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 1rem;
+	padding: 1rem;
+	background-color: #719B43;
+	color: white;
+	border: none;
+	border-radius: 7px;}
+
+#email-field {
+    border: solid 1px #719B43;
+    border-radius: 5px;
+
+}
+form > p {
+    margin: 50px;
+    color: #4a4a4a;
+    font-size: larger;
+}
+form > h2 {
+    margin-top: 10%;
+}
