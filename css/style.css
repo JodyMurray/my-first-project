@@ -248,7 +248,8 @@ input[type=submit] {
 #email-field {
     border: solid 1px #719B43;
     border-radius: 5px;
-
+    height: 30px;    
+    text-align: left;
 }
 form > p {
     margin: 50px;
@@ -257,4 +258,52 @@ form > p {
 }
 form > h2 {
     margin-top: 10%;
+}
+
+/*media queries*/
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #middle-review{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .hero-outer {
+        width: auto;
+    }
+
+    #biography {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #reviews {
+        width: auto;
+        padding: 0;
+    }
+
+    .reviews {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+    #series {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
 }
