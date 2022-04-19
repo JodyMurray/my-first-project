@@ -15,8 +15,8 @@ body {
 }
 
 /*headings and logo*/
-h1,
-h3 {
+
+h1, h3 {
     font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -84,6 +84,7 @@ hr {
 }
 
 /*hero image*/
+
 #hero-image {
     background-image: url(../assets/images/hero-image.jpeg);
     height: 400px;
@@ -113,8 +114,22 @@ hr {
 }
 
 /*biography and portrait*/
+
+.column {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    
+}
+
 #biography {
-    background-image: url('../assets/images/robin-hobb.jpeg');
     height: 500px;
     width: 100%;
     position: relative;
@@ -122,7 +137,6 @@ hr {
     background-size: contain;
     margin-left: 20px;
     text-align: center;
-
 }
 
 #middle-content {
@@ -149,6 +163,7 @@ hr {
 }
 
 /*social networks & footer*/
+
 footer {
     height: 190px;
 }
@@ -172,28 +187,20 @@ footer > h2 {
     color: #888E8E;
     padding-top: 10%;
 }
+
 /*book gallery*/
 
-.books {
-    height: 500px;
-    width: 5%;
-    position: inherit;
-    background-repeat: no-repeat;
-    background-size: 30%;
-    margin: 2% 0 0 5%;
-}
+
 #series {
-    clear: both;
-    line-height: 0;
-    height: 500px;
-    width: 80%;
+    background-image: url(../assets/images/castle.jpeg);
+    height: 400px;
+    background-position: center;
     background-repeat: no-repeat;
-    position: center;
-    background-size: contain;
-    margin: 0 5% 0 15%;
-    opacity: 85%;
+    background-size: cover;
+    position: relative;
     
 }
+
 #farseer {
     font-size: inherit;
     font-family: inherit;
@@ -204,12 +211,12 @@ footer > h2 {
     text-align: center;
 }
 #times { 
-    margin-top: 20%;
     font-family: cursive;
     color: #888E8E;
     text-transform: none;
 }
 /*meetup section styling*/
+
 .meetup-section {
     clear: left;
     background-size: cover;
@@ -299,11 +306,10 @@ form > h2 {
 
     hr {
         display: none;
-    }
+ }
     #series {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-flow: wrap;
+        background-image: url('../assets/images/castle.jpeg') no-repeat 50% 50%;
+        height: 300px;
+        width: 100%;
     }
 }
