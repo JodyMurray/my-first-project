@@ -10,7 +10,6 @@
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
-    font-size: ;
     color: #4a4a4a;
     font-size: larger;
 }
@@ -69,7 +68,6 @@ hr {
     color: rgb(220, 108, 51);
 }
 
-#menu-bar,
 #logo {
     line-height: 75px;
 }
@@ -97,27 +95,19 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    object-fit: fill;
 }
 
 .hero-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;
+    overflow: ;
     position: relative;
-    margin-left: 10px;
-    padding-top: 40px;
+    margin-left: ;
+    padding-top: ;
 }
 
 
-.reviews {
-    font-family: cursive;
-    color: #888E8E;
-    margin-bottom: 20px;
-    text-align: center;
-    position: relative;
-    text-transform: none;
-    font-size: 25px;
-}
 
 .welcome {
     font-family: 'PT Sans Narrow', sans-serif;
@@ -125,6 +115,7 @@ hr {
     color: #888E8E;
     margin-bottom: 10%;
     font-size: larger;
+    margin-top: 10%;
 }
 /*biography and portrait*/
 
@@ -168,17 +159,6 @@ hr {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-#middle-review {
-    font-size: larger;
-    height: 600px;
-    width: 50%;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-bottom: -20%;
-    margin-left: 25%;
-    text-align: center;
-}
 
 /*social networks & footer*/
 
@@ -244,16 +224,13 @@ footer > h2 {
     
 }
 .book-club {
-    background-image: url(../assets/images/wine.jpeg);
-    height: 500px;
-    width: 80%;
-    position: relative;
+    background-image: url(../assets/images/dragonbooks.jpeg);
+    height: 400px;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: -20%;
-    text-align: center;
+    background-size: cover;
+    position: relative;
+    
 }
 
 .email  {
@@ -285,7 +262,15 @@ form > p {
 form > h2 {
     margin-top: 10%;
 }
-
+.reviews {
+    font-family: cursive;
+    color: #888E8E;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    text-transform: none;
+    font-size: 25px;
+}
 /*media queries*/
 
 /* For large to medium screens sizes from 1200px wide and down */
