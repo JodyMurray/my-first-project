@@ -32,8 +32,8 @@ h1, h3 {
 .megan {
     text-align: justify;
     color: #888E8E;
-    padding: 4px;
     font-size: 20px;
+    margin-top: -25px;
 }
 
 hr {
@@ -45,13 +45,8 @@ hr {
 #logo {
     float: left;
     font-size: 250%;
-    background: transparent;
-
 }
 
-#top {
-    background: transparent;
-}
 
 
 /*navigation links*/
@@ -60,7 +55,7 @@ hr {
     font-size: 120%;
     letter-spacing: 5px;
     font-weight: bold;
-    padding: 20px;
+    padding: 30px;
 }
 
 #menu-bar a {
@@ -80,6 +75,7 @@ hr {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    margin-top: 20px;
 }
 
 .active {
@@ -90,7 +86,7 @@ hr {
 
 #hero-image {
     background-image: url(../assets/images/hero-image.jpeg);
-    height: 400px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,23 +94,12 @@ hr {
     object-fit: fill;
 }
 
-.hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: ;
-    position: relative;
-    margin-left: ;
-    padding-top: ;
-}
-
-
-
 .welcome {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
-    color: #888E8E;
+    color: #4a4a4a;
     margin-bottom: 10%;
-    font-size: larger;
+    font-weight: bold;
     margin-top: 10%;
 }
 /*biography and portrait*/
@@ -148,18 +133,6 @@ hr {
     text-align: center;
  }
 
-#middle-content {
-    width: 70%;
-    height: 30px;
-    float: right;
-    display: block;
-    margin-left: 30px;
-    margin-top: 50px;
-    padding: 2%;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
-
 /*social networks & footer*/
 
 footer {
@@ -191,12 +164,11 @@ footer > h2 {
 
 #series {
     background-image: url(../assets/images/castle.jpeg);
-    height: 400px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
 }
 
 #farseer {
@@ -208,12 +180,7 @@ footer > h2 {
     margin-bottom: 5%;
     text-align: center;
 }
-#times { 
-    font-family: cursive;
-    font-size: 25px;
-    color: #888E8E;
-    text-transform: none;
-}
+
 /*meetup section styling*/
 
 .meetup-section {
@@ -225,7 +192,7 @@ footer > h2 {
 }
 .book-club {
     background-image: url(../assets/images/dragonbooks.jpeg);
-    height: 400px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,6 +237,7 @@ form > h2 {
     position: relative;
     text-transform: none;
     font-size: 25px;
+    letter-spacing: 2px;
 }
 /*media queries*/
 
