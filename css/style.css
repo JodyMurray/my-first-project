@@ -10,8 +10,13 @@
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
+    font-size: ;
     color: #4a4a4a;
     font-size: larger;
+}
+
+body h3 {
+    font-size: 45px;
 }
 
 /*headings and logo*/
@@ -111,8 +116,16 @@ hr {
     text-align: center;
     position: relative;
     text-transform: none;
+    font-size: 25px;
 }
 
+.welcome {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    color: #888E8E;
+    margin-bottom: 10%;
+    font-size: larger;
+}
 /*biography and portrait*/
 
 .column {
@@ -130,14 +143,19 @@ hr {
 }
 
 #biography {
-    height: 500px;
     width: 100%;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: contain;
     margin-left: 20px;
+    margin-top: 20px;
     text-align: center;
 }
+ #video {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+ #video-text {
+    text-align: center;
+ }
 
 #middle-content {
     width: 70%;
@@ -212,6 +230,7 @@ footer > h2 {
 }
 #times { 
     font-family: cursive;
+    font-size: 25px;
     color: #888E8E;
     text-transform: none;
 }
