@@ -86,7 +86,7 @@ hr {
 
 #hero-image {
     background-image: url(../assets/images/hero-image.jpeg);
-    height: 600px;
+    height: 650px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,12 +163,12 @@ footer > h2 {
     padding-top: 10%;
 }
 
-/*book gallery*/
+/*book collection*/
 
 
 #castle {
     background-image: url(../assets/images/castle.jpeg);
-    height: 600px;
+    height: 650px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -236,24 +236,26 @@ li {
 }
 .book-club {
     background-image: url(../assets/images/dragonbooks.jpeg);
-    height: 600px;
+    height: 650px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    object-fit: fill;
     
 }
 
 .email  {
     text-align: center;
-    padding: 10%;
-    font-size: larger;
+    padding: 5%;
+    margin: 2px;
+    font-size: 25px;
 }
 
 input[type=submit] {
 	margin-top: 20px;
 	margin-left: 1rem;
-	padding: 1rem;
+	padding: 8px;
 	background-color: #719B43;
 	color: white;
 	border: none;
@@ -271,7 +273,7 @@ form > p {
     font-size: larger;
 }
 form > h2 {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .reviews {
     font-family: cursive;
