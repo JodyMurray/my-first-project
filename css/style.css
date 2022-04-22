@@ -91,7 +91,8 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    object-fit: fill;
+    margin-left: -4px;
+    margin-right: -4px;
 }
 
 .welcome {
@@ -99,8 +100,13 @@ hr {
     text-align: center;
     color: #4a4a4a;
     font-weight: bold;
-    margin: 8% 5% 8% 5%;
+    margin: 4% 2% 4% 2%;
     font-size: larger;
+    box-sizing: content-box;
+    border: 1px solid #888E8E;
+    border-radius: 10px;
+    padding: 2%;
+    letter-spacing: 0.5px;
 }
 /*biography and portrait*/
 
@@ -121,6 +127,7 @@ hr {
 #biography {
     text-align: center;
     margin-bottom: 8px;
+    margin-top: 2%;
     
 }
 #robin {
@@ -135,6 +142,8 @@ hr {
 }
  #video-text {
     text-align: center;
+    margin-top: 10px;
+    font-size: larger;
  }
 
 /*social networks & footer*/
@@ -160,7 +169,7 @@ footer {
 footer > h2 {
     text-align: center;
     color: #888E8E;
-    padding-top: 10%;
+    padding-top: 6%;
 }
 
 /*book collection*/
@@ -173,6 +182,7 @@ footer > h2 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
 }
 
 #summary {
@@ -247,7 +257,7 @@ li {
 
 .email  {
     text-align: center;
-    padding: 5%;
+    padding: 2%;
     margin: 2px;
     font-size: 25px;
 }
@@ -268,12 +278,17 @@ input[type=submit] {
     text-align: left;
 }
 form > p {
-    margin: 50px;
+    margin: 40px;
     color: #4a4a4a;
     font-size: larger;
+    box-sizing: content-box;
+    border: 1px solid #888E8E;
+    border-radius: 10px;
+    padding: 2%;
 }
 form > h2 {
     margin-top: 5%;
+    
 }
 .reviews {
     font-family: cursive;
@@ -285,6 +300,20 @@ form > h2 {
     font-size: 25px;
     letter-spacing: 2px;
 }
+
+/* meetup times*/
+
+#meetup-times {
+    list-style-type: none;
+    box-sizing: content-box;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    margin-left: 32.5%;
+    margin-bottom: 35px;
+}
+
 /*media queries*/
 
 /* For large to medium screens sizes from 1200px wide and down */
