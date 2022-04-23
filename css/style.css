@@ -364,6 +364,7 @@ form > h2 {
     
     hr {
         display: none;
+   
     }
     header p {
         max-width: 20%;
@@ -375,9 +376,18 @@ form > h2 {
        max-height: 400px;
        max-width: 500px;
    }
+   .reviews {
+       width: 50%;
+       margin-left: 40%;
+       margin-top: -8%;   
+    }
 
    .row2 {
        margin-left: -85px;
+   }
+   #castle {
+       margin-top: 5%;
+
    }
    .meetup-times {
     border-radius: 2px;
@@ -401,6 +411,7 @@ form > h2 {
         flex-direction: column-reverse;
         float: right;
         line-height: 5px;
+        margin-top: 15px;
     }
     header p {
         margin-left: 50px;
@@ -415,6 +426,12 @@ form > h2 {
         width: 80%;
         margin-left: 5px;
     }
+    .reviews {
+        width: 20%;
+        font-size: 18px;
+        margin-left: 40%;
+        margin-top: -18%;   
+     }
     #castle {
         display: flex;
         width: 100%;
@@ -423,7 +440,34 @@ form > h2 {
     #hero-image {
         display: flex;
         width: 100%;
-        height: 450px;
+        height: 400px;
+        
+    }
+    .megan {
+        max-width: 35%;
+        margin-left: 4%;
+    }
+    #logo {
+        max-width: 50%;
+        margin-bottom: -10px;
+        margin-top: -3px;
+    }
+    .row img {
+        max-height: 300px;
+    }
+    #robin {
+        font-size: 25px;
+    }
+    #summary {
+        font-size: 25px;
+    }
+    #list {
+        font-size: 25px;
+    }
+    .column2 img {
+        width: 100%;
+        margin-left: -30px
+        
     }
 
 }
