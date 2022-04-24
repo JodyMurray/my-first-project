@@ -341,6 +341,81 @@ form > h2 {
 
 /*media queries*/
 
+/* For large to medium screens sizes from 2560px wide and down */
+@media screen and (max-width: 2560px){
+    
+    #menu-bar  {
+        display: flex;
+        flex-direction: row-reverse;
+        float: right;
+        line-height: 20px;
+        margin-top: -10px;
+        font-size: 40px;
+    }
+    .welcome {
+        font-size: 45px;
+    }
+    .reviews {
+        width: 100%;
+        font-size: 40px;
+     }
+    .biography {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+    .row img {
+       max-width: fit-content;
+    }
+
+    .column2 {
+        margin-left: 17%;
+    }
+    section iframe {
+        width: 60%;
+        margin-left: 10%;
+    }
+    .megan {
+        max-width: 40%;
+        margin-left: 4%;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+ 
+    #logo {
+        max-width: 50%;
+        margin-bottom: -;
+        margin-top: -1%;
+        font-size: 70px;
+        position: sticky;
+    }
+    .biography {
+        padding: 30px 0;
+        margin-top: 0;
+        font-size: 70px;
+    }
+    #robin {
+        font-size: 50px;
+    }
+    #video {
+        position: relative;
+        min-height: 9;
+        overflow: hidden;
+    }
+    section iframe {
+            width: 40%;
+            margin-left: 0;
+        }
+    #video-text {
+        font-size: 50px;
+    }
+    footer h2 {
+        font-size: 60px;
+    }
+    .social-networks {
+        font-size: 50px;
+    }
+}
+
 /* For large to medium screens sizes from 1440px wide and down */
 @media screen and (max-width: 1440px){
     
@@ -352,6 +427,8 @@ form > h2 {
 
     .column2 {
         margin-left: 17%;
+        width: 100%;
+        height: 100%;
     }
     section iframe {
         width: 60%;
@@ -384,6 +461,9 @@ form > h2 {
 
    .row2 {
        margin-left: -85px;
+   }
+   .column2 {
+       margin-left: 11%;
    }
    #castle {
        margin-top: 5%;
@@ -444,7 +524,7 @@ form > h2 {
         
     }
     .megan {
-        max-width: 35%;
+        max-width: 25%;
         margin-left: 4%;
     }
     #logo {
@@ -594,7 +674,7 @@ form > h2 {
         font-size: 15px;
         margin-left: 25px;
         }
-        
+
         .reviews {
         display: none;
         }
