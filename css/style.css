@@ -469,17 +469,217 @@ form > h2 {
         margin-left: -30px
         
     }
-
 }
-/* For medium to small phone screens sizes from 320 wide and down */
-@media screen and (max-width: 320px){
+/* For medium to small phone screens sizes from 425 wide and down */
+@media screen and (max-width: 425px){
     #logo {
+        display: flex;
+        float: inline-end;
+        font-size: xx-large;
+        line-height: 40px;
+        }
+    #menu-bar {
+        display: flex;
+        align-items: end;
+        justify-content: flex-start;
+        font-size: smaller;
+        float: right;
+        padding: 0;
+        line-height: 5px;
+        }
+    .megan {
+        font-size: 15px;
+        margin-left: 5%;
+        margin-bottom: 3px;
+        }
+    .reviews {
+        display: none;
+        }
+    #hero-image {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin: 0;
+    }
+    .column2 img {
+        width: 100%;
+        margin-left: 10px
+        
+    }
+    .book-club {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin: 0;
+    }
+    #enter {
+        font-size: 30px;
+    }
+    input[type=submit] {
+        margin-left: -2px;
+    }
+    .map {
+        position: relative;
+        height: 0;
+        padding-bottom: 55%;
+        overflow: hidden;
+    }
+    .row img {
+        height: 200px;
+        width: 200px;
+    }
+    .column-a {
+        position: sticky;
+        top: 5px;
+        left: 5px;
+    }
+    .column-b {
+        position: relative;
+        top: 20px;
+        right: 20px;
+        
+    }
+    #video {
+        position: relative;
+        height: 0;
+        padding-bottom: 55%;
+        overflow: hidden;
+    }
+    .social-networks {
+        font-size: 10px;
+    }
+    #castle {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin: 0;
+    }
+    .column2 img {
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    .book-club {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin: 0;
+    }
+    #enter {
+        font-size: 30px;
+    }
+    input[type=submit] {
+        margin-left: 15px;
+    }
+}
+
+/* For medium to small phone screens sizes from 375 wide and down */
+@media screen and (max-width: 375px) {
+    #logo {
+        display: flex;
+        float: inline-end;
+        font-size: xx-large;
+        }
+    #menu-bar {
+        display: flex;
+        align-items: end;
+        justify-content: flex-start;
+        font-size: smaller;
+        line-height: 5px;
+        padding: 0;
+        margin-top: -50px;
+        }
+    
+        .megan {
+        font-size: 15px;
+        margin-left: 25px;
+        }
+        
+        .reviews {
+        display: none;
+        }
+        #list {
+            font-size: 18px;
+        }
+        
+     /*bug found when reviews go smaller with screen size, removed from display of mobile phones*/
+    
+        #hero-image {
+            display: flex;
+            width: 100%;
+            height: 200px;
+            margin: 0;
+        }
+        .row img {
+            height: 170px;
+            width: 170px;
+        }
+        .column-a {
+            position: sticky;
+            top: 5px;
+            left: 5px;
+        }
+        .column-b {
+            position: relative;
+            top: 20px;
+            right: 20px;
+        }
+        #robin {
+            font-size: 20px;
+        }
+        #video {
+            position: relative;
+            height: 0;
+            padding-bottom: 55%;
+            overflow: hidden;
+        }
+        .social-networks {
+            font-size: 10px;
+        }
+        #castle {
+            display: flex;
+            width: 100%;
+            height: 200px;
+            margin: 0;
+        }
+        .column2 img {
+            width: 100%;
+            margin-left: 5px
+            
+        }
+        .book-club {
+            display: flex;
+            width: 100%;
+            height: 200px;
+            margin: 0;
+        }
+        #enter {
+            font-size: 30px;
+        }
+        input[type=submit] {
+            margin-left: -2px;
+        }
+        .map {
+            position: relative;
+            height: 0;
+            padding-bottom: 55%;
+            overflow: hidden;
+        }
+        #summary {
+            font-size: 20px;
+        }
+}
+
+
+/* For small phone screens sizes from 320 wide and down */
+@media screen and (max-width: 320px) {
+#logo {
     display: flex;
     float: inline-end;
     font-size: xx-large;
     line-height: 40px;
     }
-    #menu-bar {
+#menu-bar {
     display: flex;
     align-items: end;
     justify-content: flex-start;
@@ -498,17 +698,18 @@ form > h2 {
     .reviews {
     display: none;
     }
-    /*bug found when reviews go smaller with screen size, removed from display of mobile phones*/
+    
+ /*bug found when reviews go smaller with screen size, removed from display of mobile phones*/
 
     #hero-image {
         display: flex;
         width: 100%;
         height: 200px;
         margin: 0;
-
     }
     .row img {
-        height: 100px;
+        height: 170px;
+        width: 170px;
     }
     .column-a {
         position: sticky;
@@ -519,7 +720,9 @@ form > h2 {
         position: relative;
         top: 20px;
         right: 20px;
-        
+    }
+    #robin {
+        font-size: 20px;
     }
     #video {
         position: relative;
@@ -558,5 +761,8 @@ form > h2 {
         height: 0;
         padding-bottom: 55%;
         overflow: hidden;
+    }
+    #summary {
+        font-size: 20px;
     }
 }
