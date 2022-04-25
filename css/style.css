@@ -6,20 +6,16 @@
     border: none;
     background-color: #FAFCF8;
 }
-
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
     color: #4a4a4a;
     font-size: larger;
 }
-
 body h3 {
     font-size: 45px;
 }
-
 /*headings and logo*/
-
 h1, h3 {
     font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
@@ -28,7 +24,6 @@ h1, h3 {
     margin-left: 5px;
     padding: 20px;
 }
-
 .megan {
     text-align: left;
     color: #888E8E;
@@ -37,55 +32,42 @@ h1, h3 {
     margin-top: -10px;
     text-transform: capitalize;
 }
-
 hr {
     border-top: 1px outset #888E8E;
     width: 100%;
     margin: 5px 0;
 }
-
 #logo {
     float: left;
     font-size: 250%;
 }
-
-
-
 /*navigation links*/
-
 #menu-bar {
     font-size: 120%;
     letter-spacing: 5px;
     font-weight: bold;
     padding: 30px;
 }
-
 #menu-bar a {
     text-decoration: none;
     color: rgb(220, 108, 51);
 }
-
 #logo {
     line-height: 75px;
 }
-
 #menu-bar a:hover {
     border-bottom: 1px solid rgb(220, 108, 51);
 }
-
 #menu-bar li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
     margin-top: 20px;
 }
-
 .active {
     border-bottom: none;
 }
-
 /*hero image*/
-
 #hero-image {
     background-image: url(../assets/images/hero-image.jpeg);
     height: 650px;
@@ -96,7 +78,6 @@ hr {
     margin-left: -4px;
     margin-right: -4px;
 }
-
 .welcome {
     font-family: 'Nunito', sans-serif;
     text-align: center;
@@ -111,7 +92,6 @@ hr {
     letter-spacing: 0.5px;
 }
 /*biography and portrait*/
-
 .column {
     margin: auto;
     justify-content: center;
@@ -119,19 +99,15 @@ hr {
     width: 100%;
     padding: 5px;
 }
-
 .row {
     display: flex;
     justify-content: center;
-    
 }
-
 .biography {
     text-align: center;
     margin: 10px;
     text-decoration: underline;
 }
-
 #robin {
     text-align: center;
     margin: 20px;
@@ -147,21 +123,16 @@ hr {
     margin-top: 10px;
     font-size: larger;
  }
-
 /*social networks & footer*/
-
 footer {
     height: 190px;
 }
-
 .social-networks {
     text-align: center;
 }
-
 .social-networks li {
     display: inline;
 }
-
 .social-networks i {
     font-size: 130%;
     margin: 30px 0 30px 0;
@@ -173,10 +144,7 @@ footer > h2 {
     color: #888E8E;
     padding-top: 6%;
 }
-
 /*book collection*/
-
-
 #castle {
     background-image: url(../assets/images/castle.jpeg);
     height: 650px;
@@ -184,9 +152,7 @@ footer > h2 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
 }
-
 #summary {
     font-size: inherit;
     font-family: inherit;
@@ -196,25 +162,18 @@ footer > h2 {
     margin-bottom: 5%;
     text-align: center;
 }
-
-
 #early-work {
     font-family: 'Nunito', sans-serif;
     margin-bottom: 15px;
-    
 }
-
 .row2 {
     display: block;
     flex-wrap: wrap;
     opacity: 0.83;
-
 }   
 .column2 {
     margin-left: 16.5%;
 }
-
-
 #chronological {
     text-align: center;
     margin-left: 10%;   
@@ -243,15 +202,12 @@ ul hr {
 li {
     margin: 15px;
 }
-
 /*meetup section styling*/
-
 .meetup-section {
     clear: left;
     background-size: cover;
     background-position: center;
     text-align: center;
-    
 }
 .book-club {
     background-image: url(../assets/images/dragonbooks.jpeg);
@@ -261,16 +217,13 @@ li {
     background-size: cover;
     position: relative;
     object-fit: fill;
-    
 }
-
 .email  {
     text-align: center;
     padding: 2%;
     margin: 2px;
     font-size: 25px;
 }
-
 input[type=submit] {
 	margin-top: 20px;
 	margin-left: 1rem;
@@ -279,7 +232,6 @@ input[type=submit] {
 	color: white;
 	border: none;
 	border-radius: 7px;}
-
 #email-field {
     border: solid 1px #719B43;
     border-radius: 5px;
@@ -297,7 +249,6 @@ form > p {
 }
 form > h2 {
     margin-top: 5%;
-    
 }
 .reviews {
     font-family: cursive;
@@ -309,9 +260,7 @@ form > h2 {
     font-size: 25px;
     letter-spacing: 2px;
 }
-
 /* meetup times*/
-
 .meetup-times {
     list-style-type: none;
     box-sizing: content-box;
@@ -325,7 +274,6 @@ form > h2 {
 .map {
     margin-left: 15%;
 }  
-
 /*form dump styles*/
 #thanks {
     background-image: url(../assets/images/thanks2.jpeg);
@@ -338,19 +286,16 @@ form > h2 {
     margin-left: 15%;
     background-blend-mode: darken;
 }
-
 /*media queries*/
-
 /* For large to medium screens sizes from 2560px wide and down */
-@media screen and (max-width: 2560px){
-    
+@media screen and (min-width: 2560px) and (max-width: 2560px){
     #menu-bar  {
         display: flex;
         flex-direction: row-reverse;
         float: right;
         line-height: 20px;
         margin-top: -10px;
-        font-size: 40px;
+        font-size: 50px;
     }
     .welcome {
         font-size: 45px;
@@ -358,17 +303,20 @@ form > h2 {
     .reviews {
         width: 100%;
         font-size: 40px;
+        padding: 25px 0 25px 0;
      }
     .biography {
         padding: 30px 0;
         margin-top: 0;
     }
     .row img {
-       max-width: fit-content;
+        max-width: 100%;
+        height: 850px;
+        display: block;
     }
-
-    .column2 {
-        margin-left: 17%;
+    .column2 img {
+        width: 80%;
+        height: auto;
     }
     section iframe {
         width: 60%;
@@ -380,12 +328,10 @@ form > h2 {
         font-size: 50px;
         margin-top: 60px;
     }
- 
     #logo {
         max-width: 50%;
-        margin-bottom: -;
         margin-top: -1%;
-        font-size: 70px;
+        font-size: 80px;
         position: sticky;
     }
     .biography {
@@ -398,15 +344,15 @@ form > h2 {
     }
     #video {
         position: relative;
-        min-height: 9;
         overflow: hidden;
     }
     section iframe {
-            width: 40%;
-            margin-left: 0;
-        }
+        width: 40%;
+        margin-left: 0;
+    }
     #video-text {
         font-size: 50px;
+        padding-bottom: 10%;
     }
     footer h2 {
         font-size: 60px;
@@ -414,17 +360,87 @@ form > h2 {
     .social-networks {
         font-size: 50px;
     }
+    #early-work {
+        font-size: 50px;
+        margin-top: -4%;
+    }
+    #summary {
+        font-size: 40px;
+    }
+    #chronological {
+        font-size: 40px;
+    }
+    #list lh {
+        font-size: 50px;
+    }
+    #hero-image {
+        display: flex;
+        margin: 0;
+        width: auto;
+        height: 1200px;
+    }
+    .book-club {
+        display: flex;
+        margin: 0;
+        width: auto;
+        height: 1200px;
+    }
+    #castle {
+        display: flex;
+        margin: 0;
+        width: auto;
+        height: 1200px;
+    }
+    form > p {
+        font-size: 50px;
+    }
+    form > h2 {
+        font-size: 45px;
+    }
+    #enter {
+        font-size: 60px;
+    }
+    .email {
+        font-size: 60px;
+    }
+    #email-field {
+        height: 50px;
+        width: 12%;
+        border: solid 2px #719B43;
+        align-items: center;
+    }
+    .meetup-times {
+        border-radius: 2px;
+        box-sizing: border-box;
+        color: gray;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 40px;
+        width: 40%;
+        text-align: center;
+        margin-left: 30%;
+    }
+   .map {
+       position: relative;
+       height: 0;
+       padding-bottom: 56.25%;
+   }
+   .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+    margin-left: 6%;
+   }
 }
 
 /* For large to medium screens sizes from 1440px wide and down */
 @media screen and (max-width: 1440px){
-    
-    
     .biography {
         padding: 30px 0;
         margin-top: 0;
     }
-
     .column2 {
         margin-left: 17%;
         width: 100%;
@@ -432,16 +448,16 @@ form > h2 {
     }
     section iframe {
         width: 60%;
-        margin-left: 10%;
+        margin-left: 12%;
     }
-    
+    #video {
+        margin-left: -10%;
+    }
 }
 /* For large to medium screens sizes from 1024px wide and down */
 @media screen and (max-width: 1024px) {
-    
     hr {
         display: none;
-   
     }
     header p {
         max-width: 20%;
@@ -458,7 +474,6 @@ form > h2 {
        margin-left: 40%;
        margin-top: -8%;   
     }
-
    .row2 {
        margin-left: -85px;
    }
@@ -467,7 +482,6 @@ form > h2 {
    }
    #castle {
        margin-top: 5%;
-
    }
    .meetup-times {
     border-radius: 2px;
@@ -482,7 +496,7 @@ form > h2 {
    section iframe {
     width: 80%;
     margin-left: 70px;
-}
+    }
 }
 /* For medium to small tablet screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
@@ -521,7 +535,6 @@ form > h2 {
         display: flex;
         width: 100%;
         height: 400px;
-        
     }
     .megan {
         max-width: 25%;
@@ -547,7 +560,6 @@ form > h2 {
     .column2 img {
         width: 100%;
         margin-left: -30px
-        
     }
 }
 /* For medium to small phone screens sizes from 425 wide and down */
@@ -565,7 +577,7 @@ form > h2 {
         font-size: smaller;
         float: right;
         padding: 0;
-        line-height: 5px;
+        line-height: 1px;
         }
     .megan {
         font-size: 15px;
@@ -584,7 +596,6 @@ form > h2 {
     .column2 img {
         width: 100%;
         margin-left: 10px
-        
     }
     .book-club {
         display: flex;
@@ -605,8 +616,11 @@ form > h2 {
         overflow: hidden;
     }
     .row img {
-        height: 200px;
-        width: 200px;
+        height: auto;
+        width: 100%;
+    }
+    #robin {
+        font-size: 20px;
     }
     .column-a {
         position: sticky;
@@ -617,7 +631,6 @@ form > h2 {
         position: relative;
         top: 20px;
         right: 20px;
-        
     }
     #video {
         position: relative;
@@ -637,7 +650,6 @@ form > h2 {
     .column2 img {
         width: 100%;
         margin-left: 0;
-        
     }
     .book-club {
         display: flex;
@@ -652,7 +664,6 @@ form > h2 {
         margin-left: 15px;
     }
 }
-
 /* For medium to small phone screens sizes from 375 wide and down */
 @media screen and (max-width: 375px) {
     #logo {
@@ -669,21 +680,16 @@ form > h2 {
         padding: 0;
         margin-top: -50px;
         }
-    
         .megan {
         font-size: 15px;
         margin-left: 25px;
         }
-
         .reviews {
         display: none;
         }
         #list {
-            font-size: 18px;
-        }
-        
+            font-size: 18px;}
      /*bug found when reviews go smaller with screen size, removed from display of mobile phones*/
-    
         #hero-image {
             display: flex;
             width: 100%;
@@ -769,7 +775,6 @@ form > h2 {
     padding: 0;
     line-height: 5px;
     }
-
     .megan {
     font-size: small;
     margin-left: 5%;
@@ -778,9 +783,7 @@ form > h2 {
     .reviews {
     display: none;
     }
-    
  /*bug found when reviews go smaller with screen size, removed from display of mobile phones*/
-
     #hero-image {
         display: flex;
         width: 100%;
