@@ -77,6 +77,7 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 ## Features
 - Header (Logo/Menu)
  - Hero Image
+ - Reviews
  - Home / Biography
  - Collection
  - Meetups
@@ -84,7 +85,13 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 
 ## Header (Logo/Menu)
 <img width="1440" alt="Screenshot 2022-04-27 at 16 40 09" src="https://user-images.githubusercontent.com/101525431/165544730-0917bbec-19f8-46c1-8964-6c368d40a48f.png">
+*This header consists of a logo and a sub-heading to that logo with the other name used by Robin Hobb. This logo and text are placed to the left on the header. The navigation links for the three pages are aligned to the right of the header. 
+*The logo is also an anchor link to the Home page.
 
+## Hero Image
+
+<img width="1440" alt="Screenshot 2022-04-27 at 16 40 38" src="https://user-images.githubusercontent.com/101525431/165546501-2385fdd4-b628-4120-95df-9288ad2fa855.png">
+This first hero image I
 
 
  
