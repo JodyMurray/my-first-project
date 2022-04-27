@@ -1,8 +1,6 @@
 # my-first-project
 
-
 <img width="1072" alt="Screenshot 2022-04-27 at 07 47 11" src="https://user-images.githubusercontent.com/101525431/165530746-5be84b7f-9494-49cd-b2bf-5eea326258f4.png">
-
 
 This fan page style website was designed to inform people of the author Robin Hobb and her work. Shown through a biogography section and a page with her collection of series. Also included is a page for a fictional meetup based in Dublin that fans can apply for. 
 
@@ -17,6 +15,7 @@ Requirements for the project is that the website has to be static and responsive
 
 A live version of the site can be found here: https://github.com/JodyMurray/my-first-project.git
 
+<<<<<<< HEAD
 ## Table of Contents##
 - UX 
   - User Demographic
@@ -97,3 +96,8 @@ This first hero image I
 
  
  
+=======
+## Table of contents ##
+
++ [UX](#ux "UX")
+>>>>>>> 553b218 (Bug found in screens 768px in map and collections photo)

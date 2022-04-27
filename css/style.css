@@ -172,10 +172,11 @@ footer > h2 {
     opacity: 0.83;
 }   
 .column2 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    display: flex;
+    justify-content: center;
+    width: 620px;
+    padding: 0 0 0 15px;
+    margin: 20px 0;
 }
 #chronological {
     text-align: center;
@@ -221,6 +222,7 @@ li {
     background-size: 100%;
     position: relative;
     object-fit: fill;
+
 }
 .email  {
     text-align: center;
@@ -276,7 +278,8 @@ form > h2 {
     margin-bottom: 35px;
 }
 .map {
-    margin-left: 16%;
+    margin-left: 50px;
+    width: 100%;
 }  
 /*form dump styles*/
 #thanks {
@@ -428,7 +431,9 @@ form > h2 {
    .map {
     position: relative;
     height: 0;
+    left: 0;
     padding-bottom: 50%;
+    margin-left: -10px;
    }
    .map iframe {
     position: absolute;
@@ -436,7 +441,7 @@ form > h2 {
     left: 0;
     width: 70%;
     height: 70%;
-    margin-left: 6%;
+    margin-left: 15%;
    }
 }
 
@@ -455,7 +460,7 @@ form > h2 {
         margin-left: 12%;
     }
     #video {
-        margin-left: -10%;
+        margin-left: -60px;
     }
 }
 /* For large to medium screens sizes from 1024px wide and down */
@@ -496,12 +501,14 @@ form > h2 {
     padding-bottom: 5px;
     padding-top: 5px;
     width: 60%;
-   }   
+    }   
    section iframe {
     width: 80%;
     margin-left: 70px;
     }
 }
+
+
 /* For medium to small tablet screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
     #menu-bar  {
@@ -565,10 +572,19 @@ form > h2 {
     #list {
         font-size: 25px;
     }
-    .column2 img {
-        width: 100%;
-        margin-left: -30px
+    .column2 {
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
+    #meetup-times {
+        border-radius: 2px;
+        box-sizing: border-box;
+        color: gray;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+       }   
 }
 /* For medium to small phone screens sizes from 425 wide and down */
 @media screen and (max-width: 425px){
@@ -660,7 +676,7 @@ form > h2 {
     }
     .column2 img {
         width: 100%;
-        margin-left: 0;
+        margin-left: 0 auto;
     }
     .book-club {
         display: flex;
