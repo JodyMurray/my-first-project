@@ -177,6 +177,8 @@ footer > h2 {
     width: 620px;
     padding: 0 0 0 15px;
     margin: 20px 0;
+    width: 60%;
+    margin-left: 20%;
 }
 #chronological {
     text-align: center;
@@ -487,7 +489,9 @@ form > h2 {
        margin-left: -85px;
    }
    .column2 {
-       margin-left: 11%;
+       display: flex;
+       justify-content: center;
+       margin-left: -6%;
    }
    #castle {
        margin-top: 5%;
@@ -584,7 +588,7 @@ form > h2 {
         font-size: 20px;
         display: flex;
         justify-content: center;
-       }   
+    } 
 }
 /* For medium to small phone screens sizes from 425 wide and down */
 @media screen and (max-width: 425px){
@@ -677,6 +681,10 @@ form > h2 {
     .column2 img {
         width: 100%;
         margin-left: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-left: 29%;
+        width: 80%;
     }
     .book-club {
         display: flex;
@@ -759,8 +767,7 @@ form > h2 {
             margin: 0;
         }
         .column2 img {
-            width: 100%;
-            margin-left: 5px
+            width: 75%;
             
         }
         .book-club {
@@ -799,11 +806,11 @@ form > h2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top: -30%;
-    font-size: smaller;
+    margin-top: -25%;
+    font-size: 15px;
     float: right;
     padding: 0;
-    line-height: 5px;
+    line-height: 8px;
     }
     .megan {
     font-size: small;
@@ -820,7 +827,7 @@ form > h2 {
         margin: 0;
     }
     .row img {
-        height: 170px;
+        height: 150px;
         width: 170px;
     }
     .column-a {
@@ -837,9 +844,8 @@ form > h2 {
         font-size: 20px;
     }
     #video {
-        padding-bottom: 55%;
+        padding-bottom: 20%;
         overflow: hidden;
-        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -855,9 +861,9 @@ form > h2 {
         margin: 0;
     }
     .column2 img {
-        width: 100%;
-        margin-left: 10px
-        
+        width: 80%;
+        display: flex;
+        justify-content: center;
     }
     .book-club {
         display: flex;
