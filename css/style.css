@@ -897,6 +897,9 @@ form > h2 {
     #circle {
         display: none;
     }
+    .biography {
+        margin-top: 10px;
+    }
     #video {
         padding-bottom: 20%;
         overflow: hidden;
