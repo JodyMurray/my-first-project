@@ -70,7 +70,7 @@ hr {
 /*hero image*/
 #hero-image {
     background-image: url(../assets/images/hero-image.jpeg);
-    height: 650px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,7 +147,7 @@ footer > h2 {
 /*book collection*/
 #castle {
     background-image: url(../assets/images/castle.jpeg);
-    height: 650px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,7 +218,7 @@ li {
 }
 .book-club {
     background-image: url(../assets/images/dragonbooks.jpeg);
-    height: 650px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -324,8 +324,9 @@ form > h2 {
         display: block;
     }
     .column2 img {
-        width: 80%;
+        width: 75%;
         height: auto;
+        margin-left: 11%;
     }
     section iframe {
         width: 60%;
@@ -454,6 +455,15 @@ form > h2 {
         padding: 30px 0;
         margin-top: 0;
     }
+    .book-club {
+        height: 650px;
+    }
+    #castle {
+        height: 650px;
+    }
+    #hero-image {
+        height: 650px;
+    }
     .column2 {
         width: 100%;
         height: 100%;
@@ -467,6 +477,10 @@ form > h2 {
         justify-content: center;
         background-position: center;
         margin-left: -12%;
+    }
+    .map {
+        width: 80%;
+        margin-left: 16%;
     }
 }
 /* For large to medium screens sizes from 1024px wide and down */
@@ -492,6 +506,10 @@ form > h2 {
    .row2 {
        margin-left: -85px;
    }
+   #video {
+       width: 80%;
+       margin-left: 8%;
+   }
    .column2 {
        display: flex;
        justify-content: center;
@@ -510,6 +528,10 @@ form > h2 {
     padding-top: 5px;
     width: 60%;
     }   
+    .map {
+        width: 80%;
+        margin-left: 12%;
+    }
    section iframe {
     width: 80%;
     margin-left: 70px;
@@ -569,7 +591,7 @@ form > h2 {
         max-height: 300px;
     }
     #video {
-        margin-left: 0;
+        margin-left: 11%;
     }
     #robin {
         font-size: 25px;
@@ -593,6 +615,10 @@ form > h2 {
         display: flex;
         justify-content: center;
     } 
+    .map {
+        width: 80%;
+        margin-left: 17%;
+    }
 }
 /* For medium to small phone screens sizes from 425 wide and down */
 @media screen and (max-width: 425px){
@@ -665,13 +691,9 @@ form > h2 {
         right: 20px;
     }
     #video {
-        padding-bottom: 55%;
+        padding-bottom: 20%;
         overflow: hidden;
         position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
     }
     footer {
         font-size: 15px;
@@ -687,7 +709,7 @@ form > h2 {
         margin-left: 0 auto;
         display: flex;
         justify-content: center;
-        margin-left: 29%;
+        margin-left: 25%;
         width: 80%;
     }
     .book-club {
@@ -736,8 +758,8 @@ form > h2 {
             margin: 0;
         }
         .row img {
-            height: 170px;
-            width: 170px;
+            height: 180px;
+            width: 200px;
         }
         .column-a {
             position: sticky;
@@ -753,13 +775,11 @@ form > h2 {
             font-size: 20px;
         }
         #video {
-        padding-bottom: 55%;
+        padding-bottom: 20%;
         overflow: hidden;
         position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
         }
         .social-networks {
             font-size: 10px;
@@ -791,6 +811,8 @@ form > h2 {
             height: 0;
             padding-bottom: 55%;
             overflow: hidden;
+            width: 60%;
+            margin-left: 25%;
         }
         #summary {
             font-size: 20px;
@@ -850,10 +872,9 @@ form > h2 {
     #video {
         padding-bottom: 20%;
         overflow: hidden;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
+       
     }
     .social-networks {
         font-size: 10px;
@@ -868,6 +889,7 @@ form > h2 {
         width: 80%;
         display: flex;
         justify-content: center;
+        margin-right: -10px;
     }
     .book-club {
         display: flex;
@@ -886,6 +908,7 @@ form > h2 {
         height: 0;
         padding-bottom: 55%;
         overflow: hidden;
+        width: 50%;
     }
     #summary {
         font-size: 20px;
