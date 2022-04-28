@@ -99,19 +99,31 @@ hr {
     width: 100%;
     padding: 5px;
 }
-.row {
-    display: flex;
-    justify-content: center;
+#circle {
+    background: url(../assets/images/robinhobb-scaled.jpeg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    border-radius: 50%;
+    float: left;
+    margin-left: 7px;
+    
 }
 .biography {
     text-align: center;
-    margin: 10px;
+    margin: 0;
     text-decoration: underline;
 }
 #robin {
     text-align: center;
-    margin: 20px;
-    font-size: 20px;
+    margin: 40px 40px 15% 0;
+    font-size: 27px;
+    text-align: right;
+    display: flex;
+    align-content: center;
 }
  #video {
     display: flex;
@@ -316,7 +328,7 @@ form > h2 {
      }
     .biography {
         padding: 30px 0;
-        margin-top: 0;
+        margin: 0;
     }
     .row img {
         max-width: 100%;
@@ -352,10 +364,19 @@ form > h2 {
     #robin {
         font-size: 50px;
     }
+    #circle {
+        width: 700px;
+        height: 650px;
+        border-radius: 50%;
+        float: left;
+        margin-top: 6%;
+    }
     #video {
         position: relative;
         display: flex;
         justify-content: center;
+        padding-bottom: 10%;
+        margin-top: -5%;
     }
     section iframe {
         width: 40%;
@@ -363,7 +384,6 @@ form > h2 {
     }
     #video-text {
         font-size: 50px;
-        padding-bottom: 10%;
     }
     footer h2 {
         font-size: 60px;
@@ -452,8 +472,7 @@ form > h2 {
 /* For large to medium screens sizes from 1440px wide and down */
 @media screen and (max-width: 1440px){
     .biography {
-        padding: 30px 0;
-        margin-top: 0;
+        margin-top: -15px;
     }
     .book-club {
         height: 650px;
@@ -494,10 +513,6 @@ form > h2 {
         flex: 0 0 50%;
         margin-left: 3%;
     }
-   .row img {
-       max-height: 400px;
-       max-width: 500px;
-   }
    .reviews {
        width: 50%;
        margin-left: 40%;
@@ -506,7 +521,16 @@ form > h2 {
    .row2 {
        margin-left: -85px;
    }
-   #video {
+    #circle {
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        float: left;
+        margin-top: 6%;}
+    #robin {
+        font-size: 20px;
+    }
+    #video {
        width: 80%;
        margin-left: 8%;
    }
@@ -587,14 +611,19 @@ form > h2 {
         margin-bottom: -10px;
         margin-top: -3px;
     }
-    .row img {
-        max-height: 300px;
-    }
     #video {
         margin-left: 11%;
     }
+    #circle { 
+        width: 400px;
+        height: 400px;
+        position: inherit;
+    }
     #robin {
         font-size: 25px;
+        display: contents;
+        position: relative;
+        text-align: center;
     }
     #summary {
         font-size: 25px;
@@ -757,9 +786,9 @@ form > h2 {
             height: 200px;
             margin: 0;
         }
-        .row img {
-            height: 180px;
-            width: 200px;
+        #circle {
+            display: flexbox;
+            width: 95%;
         }
         .column-a {
             position: sticky;
@@ -852,10 +881,7 @@ form > h2 {
         height: 200px;
         margin: 0;
     }
-    .row img {
-        height: 150px;
-        width: 170px;
-    }
+    
     .column-a {
         position: sticky;
         top: 5px;
@@ -869,12 +895,14 @@ form > h2 {
     #robin {
         font-size: 20px;
     }
+    #circle {
+        display: none;
+    }
     #video {
         padding-bottom: 20%;
         overflow: hidden;
         width: 80%;
         height: 80%;
-       
     }
     .social-networks {
         font-size: 10px;
