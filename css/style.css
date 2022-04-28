@@ -353,7 +353,8 @@ form > h2 {
     }
     #video {
         position: relative;
-        overflow: hidden;
+        display: flex;
+        justify-content: center;
     }
     section iframe {
         width: 40%;
@@ -462,7 +463,10 @@ form > h2 {
         margin-left: 12%;
     }
     #video {
-        margin-left: -60px;
+        display: flex;
+        justify-content: center;
+        background-position: center;
+        margin-left: -12%;
     }
 }
 /* For large to medium screens sizes from 1024px wide and down */
