@@ -787,8 +787,7 @@ form > h2 {
             margin: 0;
         }
         #circle {
-            display: flexbox;
-            width: 95%;
+            display: none;
         }
         .column-a {
             position: sticky;
