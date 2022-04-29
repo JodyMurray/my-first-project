@@ -648,6 +648,10 @@ form > h2 {
         width: 80%;
         margin-left: 17%;
     }
+    #thanks {
+    height: 500px;
+    width: 70%;
+    }
 }
 /* For medium to small phone screens sizes from 425 wide and down */
 @media screen and (max-width: 425px){
@@ -753,6 +757,9 @@ form > h2 {
     input[type=submit] {
         margin-left: 15px;
     }
+    #thanks {
+    height: 500px;
+    width: 70%;}
 }
 /* For medium to small phone screens sizes from 375 wide and down */
 @media screen and (max-width: 375px) {
@@ -845,6 +852,9 @@ form > h2 {
         #summary {
             font-size: 20px;
         }
+        #thanks {
+            height: 500px;
+            width: 70%;}
 }
 
 
@@ -943,4 +953,7 @@ form > h2 {
     #summary {
         font-size: 20px;
     }
+    #thanks {
+        height: 500px;
+        width: 70%;}
 }
