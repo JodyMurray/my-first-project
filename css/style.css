@@ -296,14 +296,12 @@ form > h2 {
 }  
 /*form dump styles*/
 #thanks {
-    background-image: url(../assets/images/thanks2.jpeg);
+    background-image: url(../assets/images/thanks.jpeg);
     height: 750px;
-    width: 70%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-left: 15%;
+    background-size: contain;
     background-blend-mode: darken;
 }
 /*media queries*/
@@ -318,11 +316,11 @@ form > h2 {
         font-size: 35px;
     }
     .welcome {
-        font-size: 35px;
+        font-size: 30px;
     }
     .reviews {
         width: 100%;
-        font-size: 40px;
+        font-size: 35px;
         padding: 25px 0 25px 0;
      }
     .biography {
@@ -347,6 +345,7 @@ form > h2 {
         margin-left: 4%;
         margin-top: 45px;
         font-size: 28px;
+        padding: 6px;
     }
     #logo {
         max-width: 50%;
@@ -360,7 +359,7 @@ form > h2 {
         font-size: 50px;
     }
     #robin {
-        font-size: 40px;
+        font-size: 30px;
     }
     #circle {
         width: 500px;
@@ -639,8 +638,8 @@ form > h2 {
         margin-left: 17%;
     }
     #thanks {
-    height: 500px;
-    width: 70%;
+    height: 200px;
+    width: 100%;
     }
 }
 /* For medium to small phone screens sizes from 425 wide and down */
@@ -661,8 +660,7 @@ form > h2 {
         line-height: 1px;
         }
     .megan {
-        font-size: 15px;
-        margin-left: 7%;
+        font-size: small;
         margin-bottom: 3px;
         }
     .reviews {
@@ -748,8 +746,7 @@ form > h2 {
         margin-left: 15px;
     }
     #thanks {
-    height: 500px;
-    width: 70%;}
+    width: 100%;}
 }
 /* For medium to small phone screens sizes from 375 wide and down */
 @media screen and (max-width: 375px) {
@@ -768,8 +765,8 @@ form > h2 {
         margin-top: -50px;
         }
         .megan {
-        font-size: 15px;
-        margin-left: 25px;
+        font-size: 12px;
+        max-width: 35%;
         }
         .reviews {
         display: none;
@@ -845,8 +842,7 @@ form > h2 {
             font-size: 20px;
         }
         #thanks {
-            height: 500px;
-            width: 70%;}
+            width: 100%;}
 }
 
 
@@ -866,11 +862,12 @@ form > h2 {
     font-size: 15px;
     float: right;
     padding: 0;
-    line-height: 8px;
+    line-height: 5px;
     }
     .megan {
     font-size: small;
     margin-bottom: 8px;
+    max-width: 40%;
     }
     .reviews {
     display: none;
@@ -947,6 +944,6 @@ form > h2 {
         font-size: 20px;
     }
     #thanks {
-        height: 500px;
-        width: 70%;}
+        width: 100%;
+    }
 }
