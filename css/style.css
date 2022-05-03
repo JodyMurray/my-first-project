@@ -313,12 +313,12 @@ form > h2 {
         display: flex;
         flex-direction: row-reverse;
         float: right;
-        line-height: 20px;
+        line-height: 30px;
         margin-top: -10px;
-        font-size: 50px;
+        font-size: 35px;
     }
     .welcome {
-        font-size: 45px;
+        font-size: 35px;
     }
     .reviews {
         width: 100%;
@@ -344,10 +344,9 @@ form > h2 {
         margin-left: 10%;
     }
     .megan {
-        max-width: 40%;
         margin-left: 4%;
-        font-size: 50px;
-        margin-top: 60px;
+        margin-top: 45px;
+        font-size: 28px;
     }
     #logo {
         max-width: 50%;
@@ -358,10 +357,10 @@ form > h2 {
     .biography {
         padding: 30px 0;
         margin-top: 0;
-        font-size: 70px;
+        font-size: 50px;
     }
     #robin {
-        font-size: 50px;
+        font-size: 40px;
     }
     #circle {
         width: 500px;
@@ -382,24 +381,24 @@ form > h2 {
         margin-left: 0;
     }
     #video-text {
-        font-size: 50px;
+        font-size: 40px;
     }
     footer h2 {
         font-size: 60px;
     }
     .social-networks {
-        font-size: 50px;
+        font-size: 35px;
     }
     #early-work {
-        font-size: 50px;
+        font-size: 40px;
         text-decoration: solid 1px #4a4a4a;
         margin-top: -4%;
     }
     #summary {
-        font-size: 40px;
+        font-size: 35px;
     }
     #chronological {
-        font-size: 40px;
+        font-size: 35px;
     }
     #list lh {
         font-size: 50px;
@@ -423,19 +422,19 @@ form > h2 {
         height: 1200px;
     }
     form > p {
-        font-size: 50px;
+        font-size: 40px;
     }
     form > h2 {
-        font-size: 45px;
+        font-size: 40px;
     }
     #enter {
-        font-size: 55px;
+        font-size: 50px;
     }
     .email {
-        font-size: 60px;
+        font-size: 50px;
     }
     #email-field {
-        height: 50px;
+        height: 40px;
         width: 12%;
         border: solid 2px #719B43;
         align-items: center;
@@ -455,17 +454,9 @@ form > h2 {
     position: relative;
     height: 0;
     left: 0;
-    padding-bottom: 50%;
-    margin-left: -10px;
+    padding-bottom: 40%;
    }
-   .map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 70%;
-    height: 70%;
-    margin-left: 15%;
-   }
+ 
 }
 
 /* For large to medium screens sizes from 1440px wide and down */
