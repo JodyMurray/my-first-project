@@ -1,6 +1,7 @@
 # my-first-project
 
-<img width="1072" alt="Screenshot 2022-04-27 at 07 47 11" src="https://user-images.githubusercontent.com/101525431/165530746-5be84b7f-9494-49cd-b2bf-5eea326258f4.png">
+<img width="1432" alt="Screenshot 2022-05-04 at 12 06 04" src="https://user-images.githubusercontent.com/101525431/166662475-3357d4a7-00b1-4252-b558-ba01fb6b45a1.png">
+
 
 This fan page style website was designed to inform people of the author Robin Hobb and her work. Shown through a biogography section and a page with her collection of series. Also included is a page for a fictional meetup based in Dublin that fans can apply for. 
 
@@ -13,7 +14,7 @@ This website is the first of five projects that needs to be completed in order t
 
 Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
 
-A live version of the site can be found here: https://github.com/JodyMurray/my-first-project.git
+A live version of the site can be found here: https://jodymurray.github.io/my-first-project/
 
 <<<<<<< HEAD
 ## Table of Contents##
@@ -30,7 +31,7 @@ A live version of the site can be found here: https://github.com/JodyMurray/my-f
   - Home Page
   - Collection Page
   - Meetups Page
-  - Form dump Page
+  - Thank you Page
 - Technologies Used
 - Features left to implement 
 - Testing
@@ -76,28 +77,73 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 
 ## Features
 - Header (Logo/Menu)
- - Hero Image
+ - Hero Image 
  - Reviews
+ - Welcome
  - Home / Biography
- - Collection
+ - Collection 
  - Meetups
  - Footer
 
-## Header (Logo/Menu)
+# Header (Logo/Menu)
+- This header consists of a logo and a sub-heading to that logo with the other name used by Robin Hobb. This logo and text are placed to the left on the header. The navigation links for the three pages are aligned to the right of the header.
+- The logo is also an anchor link to the Home page.
 <img width="1440" alt="Screenshot 2022-04-27 at 16 40 09" src="https://user-images.githubusercontent.com/101525431/165544730-0917bbec-19f8-46c1-8964-6c368d40a48f.png">
-*This header consists of a logo and a sub-heading to that logo with the other name used by Robin Hobb. This logo and text are placed to the left on the header. The navigation links for the three pages are aligned to the right of the header. 
-*The logo is also an anchor link to the Home page.
 
-## Hero Image
 
+# Hero Image
+- This first hero image I found on google under "fan art". 
+- It plays in with the theme of the books and the image is beautiful and a dedication to her fans.
 <img width="1440" alt="Screenshot 2022-04-27 at 16 40 38" src="https://user-images.githubusercontent.com/101525431/165546501-2385fdd4-b628-4120-95df-9288ad2fa855.png">
-This first hero image I
+
+# Reviews
+- Reviews you'll find on the books on each page.
+<img width="1432" alt="Screenshot 2022-05-04 at 12 23 41" src="https://user-images.githubusercontent.com/101525431/166669310-094988f9-e1a4-4feb-ad28-a2d46185f169.png">
+<img width="1436" alt="Screenshot 2022-05-04 at 12 24 49" src="https://user-images.githubusercontent.com/101525431/166669713-d717f35f-c20b-4926-a037-e117458888eb.png">
+<img width="1439" alt="Screenshot 2022-05-04 at 12 26 07" src="https://user-images.githubusercontent.com/101525431/166669645-38eceb44-61e2-41bd-91e1-b9e36ba85d95.png">
+
+# Welcome
+- This section is a welcome and an introduction of what the website is about and what each page contains.
+<img width="1396" alt="Screenshot 2022-05-04 at 12 24 04" src="https://user-images.githubusercontent.com/101525431/166671828-dca0e4e5-5c85-4329-8c65-0fb407e004b8.png">
+
+# Home / Biography 
+- This biography on Robin Hobb was found on her own website, it gives us an insight into her environment which gives her the inspiration for this book series.
+<img width="1440" alt="Screenshot 2022-05-04 at 12 24 16" src="https://user-images.githubusercontent.com/101525431/166672050-3fdfff0d-4219-4e03-9c21-29c1a3596d41.png">
+
+- Under the biography, a video interview of Robin Hobb and George R.R Martin is included.
+<img width="1440" alt="Screenshot 2022-05-04 at 12 24 30" src="https://user-images.githubusercontent.com/101525431/166673324-fb6ba158-4d58-4988-8c13-25919019ae04.png">
+
+# Collection
+- The collection page consists of a large hero image, which was found under "Fan art" and goes well with the colour scheme of this page and it's contents.
+<img width="1440" alt="Screenshot 2022-05-04 at 12 24 57" src="https://user-images.githubusercontent.com/101525431/166672260-fc6b31c1-7d92-4187-b836-2d028067e351.png">
+
+- After the hero image there's a section on Robin Hobb's early work. Which gives more detail to the author's back story.
+<img width="1432" alt="Screenshot 2022-05-04 at 12 25 13" src="https://user-images.githubusercontent.com/101525431/166672371-50941095-6415-4805-880c-b776752e97b4.png">
+
+- Then listed Chronologically, her complete works in this "Realm".
+<img width="1438" alt="Screenshot 2022-05-04 at 12 25 26" src="https://user-images.githubusercontent.com/101525431/166672626-ae1900f2-f3cb-4119-9590-ff009eaddaae.png">
+<img width="1438" alt="Screenshot 2022-05-04 at 12 25 34" src="https://user-images.githubusercontent.com/101525431/166672687-201d713e-f546-4421-b8da-8677fd2c6ed5.png">
+<img width="1420" alt="Screenshot 2022-05-04 at 12 25 47" src="https://user-images.githubusercontent.com/101525431/166672596-73a72583-96f3-4702-aecf-d4936de3128b.png">
+
+- And to finish the collection page, an image of the above complete works in this "Realm".
+<img width="1351" alt="Screenshot 2022-05-04 at 12 25 56" src="https://user-images.githubusercontent.com/101525431/166672994-4aab8618-744e-4e7d-90f5-11ef37c1feb4.png">
+
+# Meetups 
+- A fictional meetup was added to this website. 
+- A hero image of a dragon surrounded by books to work with the theme of the website. Image was quite hard to get right on this page.
+<img width="1440" alt="Screenshot 2022-05-04 at 12 26 20" src="https://user-images.githubusercontent.com/101525431/166673684-9a589a8f-5fcd-4bef-876c-976cc7f8433a.png">
+- Meetups in Dublin, a time and location section is included and a map of Dublin.
+- Also an area to input your email address to recieve information regarding these meetups.
+<img width="1411" alt="Screenshot 2022-05-04 at 12 26 27" src="https://user-images.githubusercontent.com/101525431/166673515-16906f62-f6ee-4787-b3e9-d330bbfe6c3e.png">
+<img width="1405" alt="Screenshot 2022-05-04 at 12 28 28" src="https://user-images.githubusercontent.com/101525431/166673904-f5877a1c-5cac-45fc-988b-a885be591d73.png">
+<img width="1435" alt="Screenshot 2022-05-04 at 12 26 46" src="https://user-images.githubusercontent.com/101525431/166673879-ce771cc9-617c-44a4-a74b-9d9c60fd7626.png">
+
+
+
+
+
 
 
  
- 
-=======
-## Table of contents ##
 
-+ [UX](#ux "UX")
->>>>>>> 553b218 (Bug found in screens 768px in map and collections photo)
+
