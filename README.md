@@ -27,13 +27,12 @@ A live version of the site can be found here: https://jodymurray.github.io/my-fi
   - Images
 - Features
   - Header and Navigation Bar
-  - Footer section
   - Home Page
   - Collection Page
   - Meetups Page
+  - Footer section
   - Thank you Page
 - Technologies Used
-- Features left to implement 
 - Testing
   - Validator testing
   - Unfixed bugs
@@ -76,7 +75,7 @@ They are consisting of - A lighter colour for the reviews; #888E8E.
 Images have been chosen in accordance to colour and content. The purpose of the website is to give a friendly look and express quality. Images have been sized in order to match design and consistency.
 
 ## Features
-- Header (Logo/Menu)
+- Header and Navigation Bar
  - Hero Image 
  - Reviews
  - Welcome
@@ -85,7 +84,7 @@ Images have been chosen in accordance to colour and content. The purpose of the 
  - Meetups
  - Footer
 
-# Header (Logo/Menu)
+# Header and Navigation Bar
 - This header consists of a logo and a sub-heading to that logo with the other name used by Robin Hobb. This logo and text are placed to the left on the header. The navigation links for the three pages are aligned to the right of the header.
 - The logo is also an anchor link to the Home page.
 <img width="1440" alt="Screenshot 2022-04-27 at 16 40 09" src="https://user-images.githubusercontent.com/101525431/165544730-0917bbec-19f8-46c1-8964-6c368d40a48f.png">
@@ -137,6 +136,39 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 <img width="1411" alt="Screenshot 2022-05-04 at 12 26 27" src="https://user-images.githubusercontent.com/101525431/166673515-16906f62-f6ee-4787-b3e9-d330bbfe6c3e.png">
 <img width="1405" alt="Screenshot 2022-05-04 at 12 28 28" src="https://user-images.githubusercontent.com/101525431/166673904-f5877a1c-5cac-45fc-988b-a885be591d73.png">
 <img width="1435" alt="Screenshot 2022-05-04 at 12 26 46" src="https://user-images.githubusercontent.com/101525431/166673879-ce771cc9-617c-44a4-a74b-9d9c60fd7626.png">
+
+# Footer
+- The footer contains four links (Facebook, Robin Hobb's Page, Amazon, Instagram). 
+- The purpose of this footer is to provide more access to the works of Robin Hobb, her books and her blog.
+- Most of the code for the footer was inspired by the Love Running Project.
+<img width="1437" alt="Screenshot 2022-05-04 at 12 24 37" src="https://user-images.githubusercontent.com/101525431/166687292-f35fb43e-186a-4a72-b6d8-06519e1d119c.png">
+
+# Thank You Page
+- This page is the form dump for applying to the fictional meetup section on the last page. 
+- The purpose for this page is to show that the form input is working properly.
+
+<img width="1433" alt="Screenshot 2022-05-04 at 12 27 00" src="https://user-images.githubusercontent.com/101525431/166687912-36f314ca-2f3d-4dee-aa9e-8935eeb5d441.png">
+
+## Technologies Used 
+- HTML
+- CSS
+
+## Testing 
+# Validator testing 
+- HTML
+  - No errors were found using W3C HTML validator testing.
+ <img width="1437" alt="Screenshot 2022-05-04 at 15 44 18" src="https://user-images.githubusercontent.com/101525431/166694817-cb6daac7-afff-4b97-b58b-47a95d9214e3.png">
+
+- CSS
+  - No errors were found using W3C CSS validator testing.
+ <img width="1356" alt="Screenshot 2022-05-04 at 15 02 12" src="https://user-images.githubusercontent.com/101525431/166694923-f7f09693-b52e-49c4-8db7-f90d0310c441.png">
+ 
+ # Lighthouse testing 
+ <img width="1432" alt="Screenshot 2022-05-04 at 12 04 28" src="https://user-images.githubusercontent.com/101525431/166695561-b4e27b00-a2b8-44ba-bbb2-dc76dc4d6199.png">
+
+## Unfixed Bugs
+
+  
 
 
 
