@@ -344,7 +344,7 @@ form > h2 {
     }
     .megan {
         margin-left: 4%;
-        margin-top: 45px;
+        margin-top: 35px;
         font-size: 28px;
         padding: 6px;
     }
@@ -435,7 +435,7 @@ form > h2 {
     }
     #email-field {
         height: 40px;
-        width: 12%;
+        width: 16%;
         border: solid 2px #719B43;
         align-items: center;
     }
