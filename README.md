@@ -16,10 +16,9 @@ Requirements for the project is that the website has to be static and responsive
 
 A live version of the site can be found here: https://jodymurray.github.io/my-first-project/
 
-<<<<<<< HEAD
-## Table of Contents##
-- UX 
-  - User Demographic
+## Table of Contents 
+- [UX](#ux "UX")
+  - [User Demographic] (#user-demographic "User Demographic")
   - User Goals
   - Design
   - Colour Scheme
@@ -167,8 +166,80 @@ Images have been chosen in accordance to colour and content. The purpose of the 
  <img width="1432" alt="Screenshot 2022-05-04 at 12 04 28" src="https://user-images.githubusercontent.com/101525431/166695561-b4e27b00-a2b8-44ba-bbb2-dc76dc4d6199.png">
 
 ## Unfixed Bugs
+Test has been conducted using Google Chrome, testing different devices and screen resolutions through google dev tools. 
+Listed is the main bugs I came across.
 
-  
+1. The pictures gave me issues trying to get them the correct size. Especially for the responsive screen design.
+ - Solution was to find the best photos, all the same sizes for the hero images, or change their resolution to match each other.
+ - The biography photo had to be changed quite a few times. 
+2. The youtube video and map were a bit problematic as well. 
+ - Solution, have video in a separate div/section, or change the autofilled width and height that come with the link and amend in CSS.
+3. Some bugs came about because I did the media query in the wrong order.
+4. For smaller screens, removed the review quotes, they didn't work well with the header/logo shrinking.
+5. For smaller screens, removed the 2nd logo heading, as the Thank you image wasn't pushing it up and lining it with the other heading. 
+6. The first CW3 test pointed out a few errors all to do with the images with the biography and youtube video.
+ - Solution, the images with the biography were just not working well with their sizes. Changed this photo to one instead of two and made it into a circle with border radius. The video was resolved by adding the correct display, width and height to each media query.
+7. Responsive design doesn't work well when sliding the screen to a smaller size. Using the devtools to choose each screen size will work well.
+8. Used a min-width as well as a max-width as it seemed to resolve a lot of issues when scrolling through screen sizes.
+9. Resolution in the image in the meetup section is still quite bad in the largest screen size.
+10. All these issues along with some minor ones were all resolved with some time and research.
+
+## Deployment 
+The development platform used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in GitHub Docs.
+
+*Log into Github.
+*Select the correct GitHub Repository to be deployed live.
+*Underneath the repository name, click the “Settings” option.
+*In the sub-section list on the left, under “Code and automation”, click “Pages”.
+*Within the ”Source” section choose ”main” as Branch and root as folder and click ”Save”.
+*The page refreshes and a website shall then deploy via a link.
+
+The live deployed link can be found here - https://jodymurray.github.io/my-first-project/
+ 
+## Media 
+
+- The first Hero image used was sourced from; https://www.google.com/
+https://ashsilverlock.files.wordpress.com/2012/05/royalassassin-port.jpg
+- The biography image was sourced from; https://www.google.com/
+https://img.20mn.fr/aDKy2B05Rx269DluYcCV5w/830x532_autrice-fantasy-robin-hobb-18-mars-2018.jpg
+- The second hero image was sourced from; https://medium.com/a-crack-in-the-fourth-wall/uphill-and-into-the-wind-a-review-of-the-assassin-s-apprentice-robin-hobb-1c8982cc76d3
+https://miro.medium.com/max/1400/1*N7ONLW9walgWKZh4mf2NSg.jpeg
+- The collection of books image was sourced from; http://www.robinhobb.com/works.htm
+- The last hero image was sourced from; https://www.google.com/
+https://i.pinimg.com/originals/a7/8f/7b/a78f7b2dd1c5bc4d718a3959a547b518.jpg
+- The thank you image on the last page for the "form dump" the image was sourced from; https://www.google.com/
+https://t4.ftcdn.net/jpg/03/29/44/25/360_F_329442520_bs9DE1vhchdtXtbsJXcwGQTpjZd5NzDo.jpg
+- The youtube video on the Home page I sourced from; https://www.youtube.com/watch?v=tXLYSnMIrXM&t=1350s
+- The map link I sourced from; https://www.google.com/maps?ll=53.32432,-6.245704&z=9&t=m&hl=en&gl=ES&mapclient=embed&q=Dublin+Ireland
+
+## Acknowledgements 
+For inpiration in general, for code, design help and advice, I'd like to give thanks to; 
+
+Martina Terlevic
+*My wonderful mentor at Code Institute.
+
+Keiron Chaudhry 
+*A fellow student.
+
+Sean O'Dwyer
+*The person who introduced me to Robin Hobb.
+
+## Useful Sources
+Sites that provided me with helpful information and resolved many of my issues: 
+https://www.w3schools.com/
+https://stackoverflow.com/
+https://css-tricks.com/
+ 
+The top screen shot for responsive design was taken from: 
+- https://ui.dev/amiresponsive
+
+
+
+
 
 
 
