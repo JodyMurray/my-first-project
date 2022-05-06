@@ -18,40 +18,40 @@ A live version of the site can be found here: https://jodymurray.github.io/my-fi
 
 ## Table of Contents 
 - [UX](#ux "UX")
-  - [User Demographic] (#user-demographic "User Demographic")
-  - User Goals
-  - Design
-  - Colour Scheme
-  - Typography
-  - Images
-- Features
-  - Header and Navigation Bar
-  - Home Page
-  - Collection Page
-  - Meetups Page
-  - Footer section
-  - Thank you Page
-- Technologies Used
-- Testing
-  - Validator testing
-  - Unfixed bugs
-- Deployment 
-- Media
-- Credits
-- Sources
+  - [User Demographic](#user-demographic "User Demographic")
+  - [User Goals](#user-goals "User Goals")
+  - [Design](#design "Design")
+  - [Colour Scheme](#colour-scheme "Colour Scheme")
+  - [Typography](#typography "Typography")
+  - [Images](#images "Images")
+- [Features](#features "Features")
+  - [Header and Navigation Bar](#header-and-navigation-bar "Head and Navigation Bar")
+  - [Home Page](#home-page "Home Page")
+  - [Collection Page](#collection-page "Collection Page")
+  - [Meetups Page](#meetups-page "Meetups Page")
+  - [Footer section](#footer-section "Footer Section")
+  - [Thank you Page](#thank-you-page "Thank you Page")
+- [Technologies Used](#technologies-used "Technologies Used")
+- [Testing](#testing "Testing")
+  - [Validator testing](#validator-testing "Validator Testing")
+  - [Testing and bugs](#testing-and-bugs "Testing and bugs")
+- [Deployment](#deployment "Deployment")
+- [Media](#media "Media")
+- [Acknowledgements](#acknowledgements "Acknowledgements")
+- [Sources](#sources "Sources")
 
 ## UX 
 
 ## User Demographic
  This site has been designed for users of all stages of completion of the books written by Robin Hobb, to find out more about her work and the books she has written and to socialize with likeminded fans.
  
- ## User Goals
+## User Goals
  *To encourage readers to learn more about Robin Hobb.
  *To welcome new fans as well as existing fans of her work
  *To display her collection in this world, chronologically.
  *To bring together a community of people to discuss this wonderful Author. 
  
- ## Design 
+## Design 
 The design has been inspired by the Love Running project. The code for the header and footer in this project were influenced by the header and footer in   the Love Running Project.
 The aim for this website is to create a clean looking website with an appealing colour scheme, my colours were chosen to go with the relative green in Dragons as they are heavily featured in these books. 
 This website is three pages, all links included at the top in the header for each HTML page and at the bottom in the footer containing links to social media platforms to do with Robin Hobb. 
@@ -165,7 +165,7 @@ Images have been chosen in accordance to colour and content. The purpose of the 
  # Lighthouse testing 
  <img width="1432" alt="Screenshot 2022-05-04 at 12 04 28" src="https://user-images.githubusercontent.com/101525431/166695561-b4e27b00-a2b8-44ba-bbb2-dc76dc4d6199.png">
 
-## Unfixed Bugs
+## Testing and Bugs
 Test has been conducted using Google Chrome, testing different devices and screen resolutions through google dev tools. 
 Listed is the main bugs I came across.
 
@@ -228,7 +228,7 @@ Keiron Chaudhry
 Sean O'Dwyer
 *The person who introduced me to Robin Hobb.
 
-## Useful Sources
+## Sources
 Sites that provided me with helpful information and resolved many of my issues: 
 https://www.w3schools.com/
 https://stackoverflow.com/
