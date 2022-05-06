@@ -220,23 +220,27 @@ https://t4.ftcdn.net/jpg/03/29/44/25/360_F_329442520_bs9DE1vhchdtXtbsJXcwGQTpjZd
 For inpiration in general, for code, design help and advice, I'd like to give thanks to; 
 
 Martina Terlevic
-*My wonderful mentor at Code Institute.
+- My wonderful mentor at Code Institute.
 
 Keiron Chaudhry 
-*A fellow student.
+- A fellow student.
 
 Sean O'Dwyer
-*The person who introduced me to Robin Hobb.
+- The person who introduced me to Robin Hobb.
 
 ## Sources
 Sites that provided me with helpful information and resolved many of my issues: 
 https://www.w3schools.com/
 https://stackoverflow.com/
 https://css-tricks.com/
+
  
 The top screen shot for responsive design was taken from: 
 - https://ui.dev/amiresponsive
 
+Thank you
+
+[Back to top](#my-first-project)
 
 
 
