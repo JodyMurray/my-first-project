@@ -437,7 +437,7 @@ form > h2 {
     }
     #email-field {
         height: 40px;
-        width: 16%;
+        width: 12%;
         border: solid 2px #719B43;
         align-items: center;
     }
@@ -453,9 +453,9 @@ form > h2 {
         margin-left: 30%;
     }
    .map {
-    position: relative;
+    position: absolute;
     height: 0;
-    left: 0;
+    left: 3%;
     padding-bottom: 40%;
    }
  
