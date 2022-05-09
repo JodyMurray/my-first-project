@@ -25,7 +25,7 @@ A live version of the site can be found here: https://jodymurray.github.io/my-fi
   - [Typography](#typography "Typography")
   - [Images](#images "Images")
 - [Features](#features "Features")
-  - [Header and Navigation Bar](#header-and-navigation-bar "Head and Navigation Bar")
+  - [Header and Navigation Bar](#header-and-navigation-bar "Header and Navigation Bar")
   - [Home Page](#home-page "Home Page")
   - [Collection Page](#collection-page "Collection Page")
   - [Meetups Page](#meetups-page "Meetups Page")
@@ -183,6 +183,7 @@ Listed is the main bugs I came across.
 8. Used a min-width as well as a max-width as it seemed to resolve a lot of issues when scrolling through screen sizes.
 9. Resolution in the image in the meetup section is still quite bad in the largest screen size.
 10. All these issues along with some minor ones were all resolved with some time and research.
+11. Last bug found on Firefox screen 1980x1080, menu bar didn't look right. Some of it was amended, the menu bar looks a bit off in this screen, but I will leave it as is, as it was the only way without changing some other things to fix it.
 
 ## Deployment 
 The development platform used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
