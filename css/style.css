@@ -34,8 +34,8 @@ h1, h3 {
 }
 hr {
     border-top: 1px solid #888E8E;
-    width: 100%;
-    margin: 30px 0 0;
+    width: auto;
+    margin-top: 2%;
 }
 #logo {
     float: left;
@@ -316,7 +316,7 @@ form > h2 {
         line-height: 30px;
         font-size: 35px;
         position: absolute;
-        left: 47%;
+        left: 73%;
         top: -1%;
     }
     .welcome {
@@ -439,7 +439,7 @@ form > h2 {
     }
     #email-field {
         height: 40px;
-        width: 50%;
+        width: 12%;
         border: solid 2px #719B43;
         align-items: center;
     }
@@ -465,12 +465,7 @@ form > h2 {
 
 /* For large to medium screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px){
-    .map {
-        width: 70%;
-        position: inherit;
-        margin-left: 45%;
-        width: 50%;
-    }
+    
 .meetup-times {
     margin: 0 auto 40px;
 }
@@ -496,16 +491,25 @@ form > h2 {
     height: 1200px;
 }
 .map {
-    position: absolute;
-    height: 0;
-    margin-bottom: 10%;
+    position: relative;
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: -30%;
 }
-}
-    
+.social-networks {
+    position: relative;}
 
+footer h2 {
+    position: relative;
+}
+}
 
 /* For large to medium screens sizes from 1440px wide and down */
 @media screen and (max-width: 1440px){
+    #menu-bar {
+        position: inherit;
+        margin-top: -1%;
+    }
     .biography {
         margin-top: -15px;
     }
@@ -540,6 +544,15 @@ form > h2 {
 }
 /* For large to medium screens sizes from 1024px wide and down */
 @media screen and (max-width: 1024px) {
+    #menu-bar {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 50px;
+        line-height: inherit;
+    }
+    .megan {
+        margin: 4% 1.5rem;
+    }
     hr {
         display: none;
     }
@@ -551,8 +564,9 @@ form > h2 {
     }
    .reviews {
        width: 50%;
-       margin-left: 43%;
-       margin-top: -8%;   
+       margin-bottom: -2%;  
+       margin-left: 5%;
+       font-size: 25px;
     }
    .row2 {
        margin-left: -85px;
@@ -577,6 +591,14 @@ form > h2 {
    }
    #castle {
        margin-top: 5%;
+       width: 100%;
+   }
+   #hero-image {
+       width: 100%;
+   }
+   .book-club {
+       height: 650px;
+       width: 100%;
    }
    .meetup-times {
     border-radius: 2px;
@@ -588,27 +610,30 @@ form > h2 {
     padding-top: 5px;
     width: 60%;
     }   
-    .map {
-        width: 80%;
-        position: absolute;
-        right: 15%;
+    .column2 img {
+        margin-right: -8%;
     }
    div iframe {
     width: 100%;
     margin-left: 70px;
     }
+    #email-field {
+        width: 25%;
+    }
 }
 
 
 /* For medium to small tablet screens sizes from 768px wide and down */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px)
+{
     #menu-bar  {
         display: flex;
         flex-direction: column-reverse;
         float: right;
-        line-height: 12px;
         margin-top: 25px;
         padding: 0;
+        font-size: 35px;
+        margin-right: 5%;
     }
     header p {
         margin-left: 50px;
@@ -624,11 +649,8 @@ form > h2 {
         margin-left: 5px;
     }
     .reviews {
-        width: 20%;
-        font-size: 18px;
-        margin-left: 40%;
-        margin-top: -18%;   
-     }
+        display: none;
+    } 
     #castle {
         display: flex;
         width: 100%;
@@ -641,7 +663,8 @@ form > h2 {
     }
     .megan {
         max-width: 25%;
-        margin-left: 4%;
+        margin-left: 3%;
+        margin-top: 2%;
     }
     #logo {
         max-width: 50%;
@@ -677,19 +700,22 @@ form > h2 {
         display: flex;
         justify-content: center;
     }
-    #meetup-times {
+    .meetup-times {
         border-radius: 2px;
         box-sizing: border-box;
         color: gray;
         font-size: 20px;
         display: flex;
         justify-content: center;
+        position: relative;
     } 
+    footer h2 {
+        margin-top: 10%;
+    }
     .map {
         width: 80%;
         margin-left: 17%;
         position: inherit;
-        padding-bottom: 10%;
     }
     #thanks {
     width: 100%;
@@ -807,6 +833,9 @@ form > h2 {
         margin-left: 15px;
         font-size: 35px;
     }
+    #email-field {
+        width: 40%;
+    }
     #thanks {
     height: 400px;
     width: 100%;}
@@ -893,6 +922,9 @@ form > h2 {
         input[type=submit] {
             margin-left: -2px;
         }
+        #email-field {
+            width: 40%;
+        }
         .map {
             position: relative;
             height: 0;
@@ -925,11 +957,13 @@ form > h2 {
     font-size: 15px;
     padding: 0;
     line-height: 5px;
+    margin-right: -6%;
     }
     .megan {
     font-size: small;
     margin-bottom: 8px;
-    max-width: 40%;
+    position: absolute;
+    top: 18%;
     }
     .reviews {
     display: none;
@@ -998,6 +1032,9 @@ form > h2 {
     input[type=submit] {
         margin-left: -2px;
         font-size: 25px;
+    }
+    #email-field {
+        width: 50%;
     }
     .map {
         position: inherit;
