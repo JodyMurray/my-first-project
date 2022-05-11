@@ -306,8 +306,11 @@ form > h2 {
         line-height: 30px;
         font-size: 35px;
         position: absolute;
-        left: 73%;
+        left: 65%;
         top: -1%;
+    }
+    hr {
+        margin-top: 10%;
     }
     .welcome {
         font-size: 25px;
@@ -444,9 +447,7 @@ form > h2 {
     left: 3%;
     padding-bottom: 40%;
    }
- 
 }
-
 /* For large to medium screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px){
     
@@ -456,7 +457,7 @@ form > h2 {
 #hero-image {
     display: flex;
     margin: 0;
-    width: auto;
+    width: 100%;
     height: 1200px;
 }
 #video iframe {
@@ -471,7 +472,7 @@ form > h2 {
 .book-club {
     display: flex;
     margin: 0;
-    width: auto;
+    width: 100%;
     height: 1200px;
 }
 .map {
@@ -496,6 +497,9 @@ footer h2 {
     }
     .biography {
         margin-top: -15px;
+    }
+    hr {
+        margin: 2%;
     }
     .book-club {
         height: 650px;
