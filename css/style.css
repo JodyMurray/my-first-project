@@ -155,7 +155,7 @@ footer {
 footer > h2 {
     text-align: center;
     color: #888E8E;
-    padding-top: 6%;
+    padding-top: 8%;
 }
 /*book collection*/
 #castle {
@@ -221,6 +221,7 @@ ul hr {
 li {
     margin: 15px;
     text-align: center;
+    list-style-type: none;
 }
 /*meetup section styling*/
 .meetup-section {
@@ -283,7 +284,6 @@ form > h2 {
 }
 /* meetup times*/
 .meetup-times {
-    list-style-type: none;
     box-sizing: content-box;
     border: 1px solid green;
     border-radius: 5px;
@@ -308,14 +308,16 @@ form > h2 {
 }
 /*media queries*/
 /* For large to medium screens sizes from 3840px wide and down */
-@media screen and (min-width: 1440px) and (max-width: 3840px){
+@media screen and (max-width: 3840px){
     #menu-bar  {
         display: flex;
         flex-direction: row-reverse;
         float: right;
         line-height: 30px;
-        margin-top: -10px;
         font-size: 35px;
+        position: absolute;
+        left: 47%;
+        top: -1%;
     }
     .welcome {
         font-size: 30px;
@@ -437,7 +439,7 @@ form > h2 {
     }
     #email-field {
         height: 40px;
-        width: 12%;
+        width: 50%;
         border: solid 2px #719B43;
         align-items: center;
     }
@@ -460,6 +462,47 @@ form > h2 {
    }
  
 }
+
+/* For large to medium screens sizes from 2560px wide and down */
+@media screen and (max-width: 2560px){
+    .map {
+        width: 70%;
+        position: inherit;
+        margin-left: 45%;
+        width: 50%;
+    }
+.meetup-times {
+    margin: 0 auto 40px;
+}
+#hero-image {
+    display: flex;
+    margin: 0;
+    width: auto;
+    height: 1200px;
+}
+#video iframe {
+    width: 50%;
+}
+#castle {
+    display: flex;
+    margin: 0;
+    width: auto;
+    height: 1200px;
+}
+.book-club {
+    display: flex;
+    margin: 0;
+    width: auto;
+    height: 1200px;
+}
+.map {
+    position: absolute;
+    height: 0;
+    margin-bottom: 10%;
+}
+}
+    
+
 
 /* For large to medium screens sizes from 1440px wide and down */
 @media screen and (max-width: 1440px){
@@ -490,8 +533,9 @@ form > h2 {
         margin-left: -12%;
     }
     .map {
-        width: 80%;
-        margin-left: 16%;
+        width: 70%;
+        position: inherit;
+        margin-left: 9%;
     }
 }
 /* For large to medium screens sizes from 1024px wide and down */
@@ -644,6 +688,8 @@ form > h2 {
     .map {
         width: 80%;
         margin-left: 17%;
+        position: inherit;
+        padding-bottom: 10%;
     }
     #thanks {
     width: 100%;
@@ -658,17 +704,19 @@ form > h2 {
         margin-left: -1%;
         }
     #menu-bar {
-        display: flex;
         align-items: end;
-        justify-content: flex-start;
         font-size: smaller;
         float: right;
         padding: 0;
         line-height: 1px;
+        position: inherit;
+        margin: 6px;
         }
     .megan {
-        font-size: small;
+        font-size: 15px;
         margin-bottom: 3px;
+        position: absolute;
+        top: 5%;
         }
     .reviews {
         display: none;
@@ -696,7 +744,7 @@ form > h2 {
         margin-left: -2px;
     }
     .map {
-        position: relative;
+        position: inherit;
         height: 0;
         padding-bottom: 55%;
         overflow: hidden;
@@ -743,6 +791,9 @@ form > h2 {
         margin-left: 25%;
         width: 80%;
     }
+    #order {
+        font-size: 40px;
+    }
     .book-club {
         display: flex;
         width: 100%;
@@ -754,6 +805,7 @@ form > h2 {
     }
     input[type=submit] {
         margin-left: 15px;
+        font-size: 35px;
     }
     #thanks {
     height: 400px;
@@ -945,6 +997,7 @@ form > h2 {
     }
     input[type=submit] {
         margin-left: -2px;
+        font-size: 25px;
     }
     .map {
         position: inherit;
