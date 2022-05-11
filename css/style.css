@@ -272,16 +272,6 @@ form > p {
 form > h2 {
     margin-top: 5%;
 }
-.reviews {
-    font-family: cursive, 'parisienne';
-    color: #888E8E;
-    margin-bottom: 20px;
-    text-align: center;
-    position: relative;
-    text-transform: none;
-    font-size: 25px;
-    letter-spacing: 2px;
-}
 /* meetup times*/
 .meetup-times {
     box-sizing: content-box;
@@ -320,13 +310,8 @@ form > h2 {
         top: -1%;
     }
     .welcome {
-        font-size: 30px;
+        font-size: 25px;
     }
-    .reviews {
-        width: 100%;
-        padding: 25px 0 25px 0;
-        position: inherit;
-     }
     .biography {
         padding: 30px 0;
         margin: 0;
@@ -355,7 +340,6 @@ form > h2 {
         max-width: 50%;
         margin-top: -1%;
         font-size: 80px;
-        position: sticky;
     }
     .biography {
         padding: 30px 0;
@@ -405,7 +389,7 @@ form > h2 {
         font-size: 35px;
     }
     #list lh {
-        font-size: 50px;
+        font-size: 30px;
     }
     #hero-image {
         display: flex;
@@ -426,7 +410,7 @@ form > h2 {
         height: 1200px;
     }
     form > p {
-        font-size: 40px;
+        font-size: 25px;
     }
     form > h2 {
         font-size: 40px;
@@ -549,9 +533,19 @@ footer h2 {
         flex-direction: column-reverse;
         font-size: 50px;
         line-height: inherit;
+        align-items: end;
+    }
+    #logo {
+        max-width: 50%;
+        margin-top: 2%;
+        font-size: 80px;
     }
     .megan {
         margin: 4% 1.5rem;
+        position: absolute;
+        top: 15%;
+        max-width: fit-content;
+        font-size: 35px;
     }
     hr {
         display: none;
@@ -561,12 +555,6 @@ footer h2 {
         font-size: 10px;
         flex: 0 0 50%;
         margin-left: 3%;
-    }
-   .reviews {
-       width: 50%;
-       margin-bottom: -2%;  
-       margin-left: 5%;
-       font-size: 25px;
     }
    .row2 {
        margin-left: -85px;
@@ -590,7 +578,6 @@ footer h2 {
        margin-left: -6%;
    }
    #castle {
-       margin-top: 5%;
        width: 100%;
    }
    #hero-image {
@@ -624,16 +611,16 @@ footer h2 {
 
 
 /* For medium to small tablet screens sizes from 768px wide and down */
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px){
     #menu-bar  {
         display: flex;
         flex-direction: column-reverse;
         float: right;
-        margin-top: 25px;
+        margin-top: 2px;
         padding: 0;
+        align-items: flex-end;
         font-size: 35px;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     header p {
         margin-left: 50px;
@@ -648,9 +635,6 @@ footer h2 {
         width: 80%;
         margin-left: 5px;
     }
-    .reviews {
-        display: none;
-    } 
     #castle {
         display: flex;
         width: 100%;
@@ -662,9 +646,11 @@ footer h2 {
         height: 400px;
     }
     .megan {
-        max-width: 25%;
+        max-width: 100%;
         margin-left: 3%;
-        margin-top: 2%;
+        position: absolute;
+        margin-top: 1%;
+        top: 45%;
     }
     #logo {
         max-width: 50%;
@@ -711,6 +697,7 @@ footer h2 {
     } 
     footer h2 {
         margin-top: 10%;
+        font-size: 25px;
     }
     .map {
         width: 80%;
@@ -741,11 +728,8 @@ footer h2 {
     .megan {
         font-size: 15px;
         margin-bottom: 3px;
-        position: absolute;
+        position: inherit;
         top: 5%;
-        }
-    .reviews {
-        display: none;
         }
     #hero-image {
         display: flex;
@@ -818,7 +802,7 @@ footer h2 {
         width: 80%;
     }
     #order {
-        font-size: 40px;
+        font-size: 30px;
     }
     .book-club {
         display: flex;
@@ -856,88 +840,90 @@ footer h2 {
         padding: 0;
         margin-top: -50px;
         }
-        .megan {
+    #menu-bar li {
+        position: inherit;
+        margin-right: 10px;
+        margin-top: 8%;
+    }
+    
+    .megan {
         font-size: 12px;
         max-width: 35%;
+        position: inherit;
         }
-        .reviews {
-        display: none;
+    #list {
+        font-size: 18px;}
+    #hero-image {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin: 0;
         }
-        #list {
-            font-size: 18px;}
-     /*bug found when reviews go smaller with screen size, removed from display of mobile phones*/
-        #hero-image {
-            display: flex;
-            width: 100%;
-            height: 200px;
-            margin: 0;
+    #circle {
+        width: 300px;
+        height: 300px;
+        margin-left: 10%;
         }
-        #circle {
-            width: 300px;
-            height: 300px;
-            margin-left: 10%;
+    .column-a {
+        position: sticky;
+        top: 5px;
+        left: 5px;
         }
-        .column-a {
-            position: sticky;
-            top: 5px;
-            left: 5px;
+    .column-b {
+        position: relative;
+        top: 20px;
+        right: 20px;
         }
-        .column-b {
-            position: relative;
-            top: 20px;
-            right: 20px;
+    #robin {
+        font-size: 20px;
         }
-        #robin {
-            font-size: 20px;
-        }
-        #video {
+    #video {
         padding-bottom: 20%;
         overflow: hidden;
         position: relative;
         width: 80%;
         height: 80%;
         }
-        .social-networks {
-            font-size: 10px;
+    .social-networks {
+        font-size: 10px;
         }
-        #castle {
-            display: flex;
-            width: 100%;
-            height: 200px;
-            margin: 0;
+    #castle {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin: 0;
         }
-        .column2 img {
-            width: 75%;
-            
+    .column2 img {
+        width: 75%; 
         }
-        .book-club {
-            display: flex;
-            width: 100%;
-            height: 200px;
-            margin: 0;
+    .book-club {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin: 0;
         }
-        #enter {
-            font-size: 30px;
+    #enter {
+        font-size: 30px;
         }
-        input[type=submit] {
-            margin-left: -2px;
+    input[type=submit] {
+        margin-left: -2px;
         }
         #email-field {
-            width: 40%;
+        width: 40%;
         }
         .map {
-            position: relative;
-            height: 0;
-            padding-bottom: 55%;
-            overflow: hidden;
-            width: 60%;
-            margin-left: 25%;
+        position: relative;
+        height: 0;
+        padding-bottom: 55%;
+        overflow: hidden;
+        width: 60%;
+        margin-left: 25%;
         }
         #summary {
-            font-size: 20px;
+        font-size: 20px;
         }
         #thanks {
-            width: 100%;}
+        width: 100%;}
 }
 
 
@@ -951,31 +937,26 @@ footer h2 {
     }
 #menu-bar {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
-    margin-top: -28%;
+    margin-top: -29%;
     font-size: 15px;
-    padding: 0;
     line-height: 5px;
-    margin-right: -6%;
     }
+#menu-bar li {
+    margin-right: 10%;
+}
     .megan {
     font-size: small;
     margin-bottom: 8px;
     position: absolute;
-    top: 18%;
+    top: 22%;
     }
-    .reviews {
-    display: none;
-    }
- /*bug found when reviews go smaller with screen size, removed from display of mobile phones*/
     #hero-image {
-        display: flex;
-        width: 100%;
-        height: 200px;
-        margin: 0;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin: 0;
     }
-    
     .column-a {
         position: sticky;
         top: 5px;
@@ -998,9 +979,9 @@ footer h2 {
     }
     #video {
         padding-bottom: 20%;
-        overflow: hidden;
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
     }
     #video-text {
         margin-top: 15%;
