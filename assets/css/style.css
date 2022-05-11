@@ -835,7 +835,6 @@ footer h2 {
 @media screen and (max-width: 375px) {
     #logo {
         display: flex;
-        float: inline-end;
         font-size: xx-large;
         }
     #menu-bar {
@@ -845,7 +844,7 @@ footer h2 {
         font-size: smaller;
         line-height: 5px;
         padding: 0;
-        margin-top: -50px;
+        margin-top: -65px;
         }
     #menu-bar li {
         position: inherit;
@@ -940,7 +939,6 @@ footer h2 {
     display: flex;
     font-size: 25px;
     line-height: 40px;
-    margin-left: -2%;
     margin-right: 40%;
     }
 #menu-bar {
