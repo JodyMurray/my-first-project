@@ -69,7 +69,7 @@ hr {
 }
 /*hero image*/
 #hero-image {
-    background-image: url(../assets/images/hero-image.jpeg);
+    background-image: url(../images/hero-image.jpeg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ hr {
     padding: 5px;
 }
 #circle {
-    background: url(../assets/images/robin3.webp);
+    background: url(../images/robin3.webp);
     height: 500px;
     width: 500px;
     background-position: center;
@@ -159,7 +159,7 @@ footer > h2 {
 }
 /*book collection*/
 #castle {
-    background-image: url(../assets/images/castle.jpeg);
+    background-image: url(../images/castle.jpeg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -231,7 +231,7 @@ li {
     text-align: center;
 }
 .book-club {
-    background-image: url(../assets/images/dragonbooks.jpeg);
+    background-image: url(../images/dragonbooks.jpeg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -288,7 +288,7 @@ form > h2 {
 }  
 /*form dump styles*/
 #thanks {
-    background-image: url(../assets/images/thanks.jpeg);
+    background-image: url(../images/thanks.jpeg);
     height: 600px;
     width: 100%;
     background-position: center;
@@ -654,7 +654,7 @@ footer h2 {
         margin-left: 3%;
         position: absolute;
         margin-top: 1%;
-        top: 45%;
+        top: 16%%;
     }
     #logo {
         max-width: 50%;
