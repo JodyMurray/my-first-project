@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=PT+Sans+Narrow&family=Parisienne&display=swap');
 
 * {
     margin: 0;
@@ -33,9 +33,9 @@ h1, h3 {
     text-transform: capitalize;
 }
 hr {
-    border-top: 1px outset #888E8E;
+    border-top: 1px solid #888E8E;
     width: 100%;
-    margin: 5px 0 0;
+    margin: 30px 0 0;
 }
 #logo {
     float: left;
@@ -201,7 +201,7 @@ footer > h2 {
 #order {
     text-align: center;
     margin-bottom: -4%;
-    font-family: cursive;
+    font-family: cursive, 'parisienne';
     color: #888E8E;
 }
 #list {
@@ -272,7 +272,7 @@ form > h2 {
     margin-top: 5%;
 }
 .reviews {
-    font-family: cursive;
+    font-family: cursive, 'parisienne';
     color: #888E8E;
     margin-bottom: 20px;
     text-align: center;
@@ -507,7 +507,7 @@ form > h2 {
     }
    .reviews {
        width: 50%;
-       margin-left: 40%;
+       margin-left: 43%;
        margin-top: -8%;   
     }
    .row2 {
@@ -546,7 +546,8 @@ form > h2 {
     }   
     .map {
         width: 80%;
-        margin-left: 12%;
+        position: absolute;
+        right: 15%;
     }
    div iframe {
     width: 100%;
@@ -946,10 +947,8 @@ form > h2 {
         margin-left: -2px;
     }
     .map {
-        position: relative;
-        height: 0;
+        position: inherit;
         padding-bottom: 55%;
-        overflow: hidden;
     }
     #summary {
         font-size: 20px;
