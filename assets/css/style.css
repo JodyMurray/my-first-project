@@ -746,6 +746,11 @@ footer h2 {
         height: 200px;
         margin: 0;
     }
+    #circle {
+        width: 400px;
+        height: 400px;
+
+    }
     .column2 img {
         width: 100%;
         margin-left: 10px
@@ -832,6 +837,9 @@ footer h2 {
     #thanks {
     height: 400px;
     width: 100%;}
+    .social-networks {
+        font-size: 15px;
+    }
 }
 /* For medium to small phone screens sizes from 375 wide and down */
 @media screen and (max-width: 375px) {
@@ -948,6 +956,7 @@ footer h2 {
     justify-content: flex-start;
     font-size: 15px;
     line-height: 5px;
+    padding-top: 4%;
     }
 #menu-bar li {
     margin-right: 10%;
