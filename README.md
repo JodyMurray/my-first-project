@@ -88,8 +88,8 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 # Header and Navigation Bar
 - This header consists of a logo and a sub-heading to that logo with the other name used by Robin Hobb. This logo and text are placed to the left on the header. The navigation links for the three pages are aligned to the right of the header.
 - The logo is also an anchor link to the Home page.
-<img width="1440" alt="Screenshot 2022-04-27 at 16 40 09" src="https://user-images.githubusercontent.com/101525431/165544730-0917bbec-19f8-46c1-8964-6c368d40a48f.png">
 
+<img width="1440" alt="Screenshot 2022-05-12 at 20 33 24" src="https://user-images.githubusercontent.com/101525431/168144965-4bcbe00c-1954-4708-bc17-c4792ed2b4a3.png">
 
 # Hero Image
 - This first hero image I found on google under "fan art". 
@@ -159,7 +159,8 @@ Images have been chosen in accordance to colour and content. The purpose of the 
  <img width="1356" alt="Screenshot 2022-05-04 at 15 02 12" src="https://user-images.githubusercontent.com/101525431/166694923-f7f09693-b52e-49c4-8db7-f90d0310c441.png">
  
  # Lighthouse testing 
- <img width="1432" alt="Screenshot 2022-05-04 at 12 04 28" src="https://user-images.githubusercontent.com/101525431/166695561-b4e27b00-a2b8-44ba-bbb2-dc76dc4d6199.png">
+ 
+ <img width="1430" alt="Screenshot 2022-05-12 at 20 38 08" src="https://user-images.githubusercontent.com/101525431/168145591-4b5f353e-03fa-4fd6-9a4a-64a82649cb91.png">
 
 ## Testing and Bugs
 Test has been conducted using Google Chrome, testing different devices and screen resolutions through google dev tools. 
@@ -179,7 +180,8 @@ Listed is the main bugs I came across.
 8. Used a min-width as well as a max-width as it seemed to resolve a lot of issues when scrolling through screen sizes.
 9. Resolution in the image in the meetup section is still quite bad in the largest screen size.
 10. All these issues along with some minor ones were all resolved with some time and research.
-11. Last bug found on Firefox screen 1980x1080, menu bar didn't look right. Some of it was amended, the menu bar looks a bit off in this screen, but I will leave it as is, as it was the only way without changing some other things to fix it.
+11. A bug I came across was showing me no internet
+12. Last bug found on Firefox screen 1980x1080, menu bar didn't look right. Some of it was amended, the menu bar looks a bit off in this screen, but I will leave it as is, as it was the only way without changing some other things to fix it.
 
 ## Deployment 
 The development platform used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
