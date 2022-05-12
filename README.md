@@ -1,6 +1,6 @@
 # my-first-project
 
-<img width="1432" alt="Screenshot 2022-05-04 at 12 06 04" src="https://user-images.githubusercontent.com/101525431/166662475-3357d4a7-00b1-4252-b558-ba01fb6b45a1.png">
+<img width="1427" alt="Screenshot 2022-05-12 at 18 29 58" src="https://user-images.githubusercontent.com/101525431/168124214-224bd1a7-dad2-4034-84c5-d776cea53441.png">
 
 
 This fan page style website was designed to inform people of the author Robin Hobb and her work. Shown through a biogography section and a page with her collection of series. Also included is a page for a fictional meetup based in Dublin that fans can apply for. 
@@ -26,10 +26,11 @@ A live version of the site can be found here: https://jodymurray.github.io/my-fi
   - [Images](#images "Images")
 - [Features](#features "Features")
   - [Header and Navigation Bar](#header-and-navigation-bar "Header and Navigation Bar")
-  - [Home Page](#home-page "Home Page")
-  - [Collection Page](#collection-page "Collection Page")
-  - [Meetups Page](#meetups-page "Meetups Page")
-  - [Footer section](#footer-section "Footer Section")
+  - [Hero Image](#hero-image "Hero Image")
+  - [Welcome](#welcome "Welcome")
+  - [Home and Biography](#home-and-biography "Home and Biography")
+  - [Collection](#collection "Collection")
+  - [Footer](#footer "Footer")
   - [Thank you Page](#thank-you-page "Thank you Page")
 - [Technologies Used](#technologies-used "Technologies Used")
 - [Testing](#testing "Testing")
@@ -78,10 +79,11 @@ Images have been chosen in accordance to colour and content. The purpose of the 
  - Hero Image 
  - Reviews
  - Welcome
- - Home / Biography
+ - Home and Biography
  - Collection 
  - Meetups
  - Footer
+ - Thank you page
 
 # Header and Navigation Bar
 - This header consists of a logo and a sub-heading to that logo with the other name used by Robin Hobb. This logo and text are placed to the left on the header. The navigation links for the three pages are aligned to the right of the header.
@@ -94,17 +96,11 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 - It plays in with the theme of the books and the image is beautiful and a dedication to her fans.
 <img width="1440" alt="Screenshot 2022-04-27 at 16 40 38" src="https://user-images.githubusercontent.com/101525431/165546501-2385fdd4-b628-4120-95df-9288ad2fa855.png">
 
-# Reviews
-- Reviews you'll find on the books on each page.
-<img width="1432" alt="Screenshot 2022-05-04 at 12 23 41" src="https://user-images.githubusercontent.com/101525431/166669310-094988f9-e1a4-4feb-ad28-a2d46185f169.png">
-<img width="1436" alt="Screenshot 2022-05-04 at 12 24 49" src="https://user-images.githubusercontent.com/101525431/166669713-d717f35f-c20b-4926-a037-e117458888eb.png">
-<img width="1439" alt="Screenshot 2022-05-04 at 12 26 07" src="https://user-images.githubusercontent.com/101525431/166669645-38eceb44-61e2-41bd-91e1-b9e36ba85d95.png">
-
 # Welcome
 - This section is a welcome and an introduction of what the website is about and what each page contains.
 <img width="1396" alt="Screenshot 2022-05-04 at 12 24 04" src="https://user-images.githubusercontent.com/101525431/166671828-dca0e4e5-5c85-4329-8c65-0fb407e004b8.png">
 
-# Home / Biography 
+# Home and Biography 
 - This biography on Robin Hobb was found on her own website, it gives us an insight into her environment which gives her the inspiration for this book series.
 <img width="1440" alt="Screenshot 2022-05-04 at 12 24 16" src="https://user-images.githubusercontent.com/101525431/166672050-3fdfff0d-4219-4e03-9c21-29c1a3596d41.png">
 
