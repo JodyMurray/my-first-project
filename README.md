@@ -1,9 +1,9 @@
-# my-first-project
+# robin-hobb-p1
 
 <img width="1427" alt="Screenshot 2022-05-12 at 18 29 58" src="https://user-images.githubusercontent.com/101525431/168124214-224bd1a7-dad2-4034-84c5-d776cea53441.png">
 
 
-This fan page style website was designed to inform people of the author Robin Hobb and her work. Shown through a biogography section and a page with her collection of series. Also included is a page for a fictional meetup based in Dublin that fans can apply for. 
+This fan page style website was designed to inform people of the author Robin Hobb and her work. Shown through a biography section and a page with her collection of series. Also included is a page for a fictional meetup based in Dublin that fans can apply for. 
 
 This website contains three main pages; Home, Collection and Meetups. The Meetup page includes a section to enter your email address to sign up for the mentioned meetings held in Dublin.
 
@@ -47,10 +47,10 @@ A live version of the site can be found here: https://jodymurray.github.io/my-fi
  This site has been designed for users of all stages of completion of the books written by Robin Hobb, to find out more about her work and the books she has written and to socialize with likeminded fans.
  
 ## User Goals
- *To encourage readers to learn more about Robin Hobb.
- *To welcome new fans as well as existing fans of her work
- *To display her collection in this world, chronologically.
- *To bring together a community of people to discuss this wonderful Author. 
+ * To encourage readers to learn more about Robin Hobb.
+ * To welcome new fans as well as existing fans of her work
+ * To display her collection in this world, chronologically.
+ * To bring together a community of people to discuss this wonderful Author. 
  
 ## Design 
 The design has been inspired by the Love Running project. The code for the header and footer in this project were influenced by the header and footer in   the Love Running Project.
@@ -125,9 +125,12 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 # Meetups 
 - A fictional meetup was added to this website. 
 - A hero image of a dragon surrounded by books to work with the theme of the website. Image was quite hard to get right on this page.
+
 <img width="1440" alt="Screenshot 2022-05-04 at 12 26 20" src="https://user-images.githubusercontent.com/101525431/166673684-9a589a8f-5fcd-4bef-876c-976cc7f8433a.png">
 - Meetups in Dublin, a time and location section is included and a map of Dublin.
+
 - Also an area to input your email address to recieve information regarding these meetups.
+
 <img width="1411" alt="Screenshot 2022-05-04 at 12 26 27" src="https://user-images.githubusercontent.com/101525431/166673515-16906f62-f6ee-4787-b3e9-d330bbfe6c3e.png">
 <img width="1405" alt="Screenshot 2022-05-04 at 12 28 28" src="https://user-images.githubusercontent.com/101525431/166673904-f5877a1c-5cac-45fc-988b-a885be591d73.png">
 <img width="1435" alt="Screenshot 2022-05-04 at 12 26 46" src="https://user-images.githubusercontent.com/101525431/166673879-ce771cc9-617c-44a4-a74b-9d9c60fd7626.png">
@@ -167,22 +170,27 @@ Test has been conducted using Google Chrome, testing different devices and scree
 Listed is the main bugs I came across.
 
 1. The pictures gave me issues trying to get them the correct size. Especially for the responsive screen design.
- - Solution was to find the best photos, all the same sizes for the hero images, or change their resolution to match each other.
+ - Solution; find the best photos, all the same sizes for the hero images, or change their resolution to match each other.
  - The biography photo had to be changed quite a few times. 
-2. The youtube video and map were a bit problematic as well. 
- - Solution, have video in a separate div/section, or change the autofilled width and height that come with the link and amend in CSS.
-3. Some bugs came about because I did the media query in the wrong order.
-4. For smaller screens, removed the review quotes, they didn't work well with the header/logo shrinking.
-5. For smaller screens, removed the 2nd logo heading, as the Thank you image wasn't pushing it up and lining it with the other heading. 
-6. The first CW3 test pointed out a few errors all to do with the images with the biography and youtube video.
- - Solution, the images with the biography were just not working well with their sizes. Changed this photo to one instead of two and made it into a circle with border radius. The video was resolved by adding the correct display, width and height to each media query.
-7. Responsive design doesn't work well when sliding the screen to a smaller size. Using the devtools to choose each screen size will work well.
-8. Used a min-width as well as a max-width as it seemed to resolve a lot of issues when scrolling through screen sizes.
-9. Resolution in the image in the meetup section is still quite bad in the largest screen size.
-10. All these issues along with some minor ones were all resolved with some time and research.
-11. A bug I came across was showing me no internet
-12. Margin in the header for Firefox doesn't look the same as it does on Google Chrome, especially on the responsive design for 320px.
-13. Last bug found on Firefox screen 1980x1080, menu bar didn't look right. Some of it was amended, the menu bar looks a bit off in this screen, but I will leave it as is, as it was the only way without changing some other things to fix it.
+2. The youtube video and map were a bit problematic as well. The video on the Home page is very long and I couldn't manage to get it right.
+ - Solution; have video in a separate div/section, or change the autofilled width and height that come with the link and amend in CSS.
+3. The margins in the header were always affected by the margins in the reviews.
+ - Solution; Remove reviews.
+4. For smaller screens, the Thank you image wasn't pushing the sub heading up and lining it with the other heading. 
+  - Solution; Remove display of sub heading in thankyou.html.
+5. The first CW3 test pointed out a few errors all to do with the images with the biography and youtube video.
+ - Solution; the images with the biography were just not working well with their sizes. Changed this photo to one instead of two and made it into a circle with border radius. The video was resolved by adding the correct display, width and height to each media query.
+6. Responsive design doesn't work well when sliding the screen to a smaller size. Using the devtools to choose each screen size will work well.
+ - Solution; Used min-width for some of the media queries, which helped the screen transition a little.
+7. Resolution in the image in the meetup section is still quite bad in the largest screen size.
+ - Solution; Changed height pixels and it seemed to work fine in most large screens.
+8. A bug I came across was showing me no internet.
+ - Solution; it was a small error in the settings of the browser.
+ 
+ Two bugs for Firefox browser which I didn't find many solutions for:
+ 
+9. Margin in the header for Firefox doesn't look the same as it does on Google Chrome, especially on the responsive design for 320px.
+10. Last bug found on Firefox screen 1980x1080, menu bar didn't look right. Some of it was amended, the menu bar looks a bit off in this screen, but I will leave it as is, as it was the only way without changing some other things to fix it.
 
 ## Deployment 
 The development platform used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
@@ -240,7 +248,7 @@ The top screen shot for responsive design was taken from:
 
 Thank you
 
-[Back to top](#my-first-project)
+[Back to top](#robin-hobb-p1)
 
 
 
