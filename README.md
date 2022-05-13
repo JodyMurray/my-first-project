@@ -7,7 +7,7 @@ This fan page style website was designed to inform people of the author Robin Ho
 
 This website contains three main pages; Home, Collection and Meetups. The Meetup page includes a section to enter your email address to sign up for the mentioned meetings held in Dublin.
 
-Users of this website will be well informed about Robin Hobb through a biography and a video interview, they will see pictures and read summaries of each of her series, and quotes from famous reviews these books have received throughout the years. 
+Users of this website will be well informed about Robin Hobb through a biography and a video interview, they will see pictures and read summaries of each of her series. 
 The target audience of this page is mostly existing fans but new fans of the author are also welcome. This is mentioned so everybody feels welcome and fans can meet likeminded fans of this fantasy world!
 
 This website is the first of five projects that needs to be completed in order to receive a diploma in Software Development from The Code Institute.
@@ -59,17 +59,18 @@ This website is three pages, all links included at the top in the header for eac
 There is also a form-dump page, which brings up a thank you note when applying your email into the meetup section.
 
 ## Colour Scheme
-My colour scheme I picked myself, I find them appealing to the eyes and relative to the fan page.
-They are consisting of - A lighter colour for the reviews; #888E8E.
-                       - A shade darker than the above one for the text; #4a4a4a, (a colour used in Love Running).
-                       - A dark green shade for the headings; #719B43.
+The colour scheme I picked myself, I found them appealing to the eyes and relative to the fan page.
+They are consisting of; 
+- A light shade for the subheading in the menu-bar; #888E8E.
+- A shade darker than the above one for the text; #4a4a4a, (a colour used in Love Running).
+- A dark green shade for the headings; #719B43.
 
 ## Typography 
 - The fonts used for this project were from https://fonts.google.com/
 - Icons for the social media links from https://fontawesome.com/
 - The fonts used for the headings: 'PT Sans Narrow', sans-serif.
 - The fonts used for body: 'Nunito', sans-serif.
-- The font used for the reviews: Cursive.
+- The fonts used for the heading "Chrononlogical Order" were Cursive and 'parisienne'.
 
 ## Images 
 Images have been chosen in accordance to colour and content. The purpose of the website is to give a friendly look and express quality. Images have been sized in order to match design and consistency.
@@ -77,7 +78,6 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 ## Features
 - Header and Navigation Bar
  - Hero Image 
- - Reviews
  - Welcome
  - Home and Biography
  - Collection 
@@ -181,7 +181,8 @@ Listed is the main bugs I came across.
 9. Resolution in the image in the meetup section is still quite bad in the largest screen size.
 10. All these issues along with some minor ones were all resolved with some time and research.
 11. A bug I came across was showing me no internet
-12. Last bug found on Firefox screen 1980x1080, menu bar didn't look right. Some of it was amended, the menu bar looks a bit off in this screen, but I will leave it as is, as it was the only way without changing some other things to fix it.
+12. Margin in the header for Firefox doesn't look the same as it does on Google Chrome, especially on the responsive design for 320px.
+13. Last bug found on Firefox screen 1980x1080, menu bar didn't look right. Some of it was amended, the menu bar looks a bit off in this screen, but I will leave it as is, as it was the only way without changing some other things to fix it.
 
 ## Deployment 
 The development platform used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
