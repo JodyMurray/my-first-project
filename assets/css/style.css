@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   border: none;
-  background: #dfead5;
 }
 body {
   font-family: "Nunito", sans-serif;
@@ -41,15 +40,13 @@ hr {
 /*navigation links*/
 #menu-bar {
   font-weight: bold;
-  padding: 20px;
+  padding: 15px;
 }
 #menu-bar a {
   text-decoration: none;
   color: rgb(220, 108, 51);
 }
-#logo {
-  line-height: 75px;
-}
+
 #menu-bar li:hover {
   transform: scale(1.1);
 }
@@ -62,14 +59,8 @@ hr {
 /*hero image*/
 #hero-image {
   background-image: url(../images/hero-image.jpeg);
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-left: -4px;
-  margin-right: -4px;
 }
+
 .welcome {
   font-family: "Nunito", sans-serif;
   text-align: center;
@@ -331,7 +322,6 @@ form > h2 {
   .megan {
     margin-left: 4%;
     margin-top: 35px;
-    font-size: 28px;
     padding: 6px;
   }
   #logo {
