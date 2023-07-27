@@ -84,32 +84,15 @@ hr {
   padding: 5px;
 } */
 #circle img {
-  width: 400px; /* Adjust this value as needed for your desired circle size */
-  height: 400px; /* Set the same value as width to create a square container */
+  width: 350px; /* Adjust this value as needed for your desired circle size */
+  height: 350px; /* Set the same value as width to create a square container */
   overflow: hidden; /* Hide any overflowing content to create a perfect circle */
   border-radius: 50%;
+  margin-left: 80px;
 }
-/* .biography {
-  text-align: center;
-  margin: 0;
-  text-decoration: underline;
-} */
-#robin {
- 
-  
-} 
-#video {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 5%;
-}
-#video-text {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10%;
-  font-size: 25px;
-}
+
+
+
 /*social networks & footer*/
 footer {
   height: 190px;
