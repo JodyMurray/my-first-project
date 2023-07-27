@@ -14,6 +14,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/script.js"></script>
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+
     <link rel="shortcut icon" href="favicon.ico" />
     <title>Robin Hobb Fan Page</title>
   </head>
@@ -34,7 +40,7 @@
           <li><a href="index.html" class="active">Home</a></li>
         </ul>
       </nav>
-      <div class="mb-4">
+      <div class="mb-4" id="slideElement" class="hidden">
         <p class="megan text-2lg text-gray-600 text-opacity-70">
           A pseudonym used by Megan Lindholm
         </p>
@@ -45,7 +51,10 @@
         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40"
       >
         <div class="text-center bg-transparent">
-          <h1 class="text-white bg-transparent text-4xl font-bold">
+          <h1
+            class="text-white bg-transparent text-4xl font-bold"
+            data-aos="fade-up" data-aos-duration="2000"
+          >
             Welcome to the Fantasy World
           </h1>
           <p class="text-white bg-transparent mx-auto p-4 max-w-md">
@@ -145,5 +154,16 @@
       src="https://kit.fontawesome.com/205330c142.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/script.js/2.0.2/script.min.js"
+      integrity="sha512-UWtTDM6wtl/qutDD6i1JOGZGiEd92dveVzuLl8sMBkMHlOHcbZdexM7ZrKkeaugW7vhqDnWc2pPD/ohEV+BBbg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <!-- script to initialize animation library -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
