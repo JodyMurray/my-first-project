@@ -45,7 +45,6 @@ hr {
 }
 #menu-bar a {
   text-decoration: none;
-  color: rgb(220, 108, 51);
 }
 
 #menu-bar li:hover {
@@ -75,14 +74,7 @@ hr {
   padding: 2%;
   letter-spacing: 0.5px;
 }
-/*biography and portrait*/
-/* .column {
-  margin: auto;
-  justify-content: center;
-  display: flex;
-  width: 100%;
-  padding: 5px;
-} */
+
 #circle img {
   width: 350px; /* Adjust this value as needed for your desired circle size */
   height: 350px; /* Set the same value as width to create a square container */
@@ -90,7 +82,6 @@ hr {
   border-radius: 50%;
   margin-left: 80px;
 }
-
 
 
 /*social networks & footer*/
