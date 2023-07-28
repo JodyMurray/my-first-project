@@ -41,7 +41,8 @@ hr {
 /*navigation links*/
 #menu-bar {
   font-weight: bold;
-  padding: 15px;
+  padding: 25px;
+  margin-bottom: -15px;
 }
 #menu-bar a {
   text-decoration: none;
@@ -285,11 +286,6 @@ form > h2 {
     width: 100%;
     margin-left: 10%;
   }
-  .megan {
-    margin-left: 4%;
-    margin-top: 35px;
-    padding: 6px;
-  }
   #logo {
     max-width: 50%;
     margin-top: -1%;
@@ -493,11 +489,7 @@ form > h2 {
     margin-top: 2%;
     font-size: 80px;
   }
-  .megan {
-    margin: 6% 1.5rem;
-    max-width: 20%;
-    font-size: 35px;
-  }
+
   hr {
     display: none;
   }
