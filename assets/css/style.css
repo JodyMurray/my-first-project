@@ -60,6 +60,8 @@ hr {
 /*hero image*/
 #hero-image {
   background-image: url(../images/hero-image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .welcome {
