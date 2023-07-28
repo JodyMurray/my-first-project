@@ -28,8 +28,8 @@ h3 {
   font-family: "PT Sans Narrow", sans-serif;
   text-transform: capitalize;
   position: relative;
-  right: 22%;
-  bottom: 25px;
+  right: 20%;
+  bottom: 15px;
   
 }
 hr {
@@ -96,13 +96,14 @@ hr {
 /*book collection*/
 #castle {
   background-image: url(../images/castle.jpeg);
-  height: 500px;
+  background-repeat: no-repeat;
+  /* height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative; */
 }
-#summary {
+/* #summary {
   font-size: inherit;
   font-family: inherit;
   margin-top: 5%;
@@ -110,10 +111,16 @@ hr {
   margin-right: 5%;
   margin-bottom: 5%;
   text-align: center;
+} */
+
+.summary p {
+  width: 80%;
+  font-weight: 700;
 }
+
 #early-work {
   font-family: "Nunito", sans-serif;
-  margin-bottom: 15px;
+  
 }
 .row2 {
   display: block;
@@ -129,34 +136,10 @@ hr {
   width: 60%;
   margin-left: 20%;
 }
-#chronological {
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-#order {
-  text-align: center;
-  margin-bottom: -4%;
-  font-family: cursive, "parisienne";
-  color: #888e8e;
-}
-#list {
-  list-style-type: none;
-  text-align: center;
-  padding: 5%;
-}
-ul lh {
-  font-size: x-large;
-  color: #719b43;
-}
-ul hr {
-  width: 40%;
-  margin-left: 30%;
-}
-li {
-  margin: 15px;
-  text-align: center;
-  list-style-type: none;
+
+#list p {
+  font-size: 24px;
+  width: auto;
 }
 /*meetup section styling*/
 .meetup-section {
@@ -277,6 +260,7 @@ form > h2 {
     max-width: 50%;
     margin-top: -1%;
     font-size: 80px;
+    margin-bottom: -2.5%;
   }
   .biography {
     padding: 30px 0;

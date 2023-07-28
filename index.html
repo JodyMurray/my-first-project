@@ -26,11 +26,8 @@
   <body>
     <header class="bg-green-100 nav h-full">
       <a href="index.html">
-        <h1
-          id="logo"
-          class="text-4xl font-bold tracking-tight mx-6 sm:text-6xl"
-        >
-          <img src="assets/images/logoRobin.png" class="" alt="">
+        <h1 id="logo" class="text-4xl font-bold tracking-tight sm:text-6xl">
+          <img src="assets/images/logoRobin.png" alt="" />
         </h1>
       </a>
       <nav class="space-x-2 py-3 text-gray-800">
@@ -40,8 +37,10 @@
           <li><a href="index.html" class="active">Home</a></li>
         </ul>
       </nav>
-      <div class="p-2 " id="slideElement">
-        <p class="megan pt-6 text-2lg text-gray-700 text-opacity-90">
+      <div class="p-4" id="slideElement">
+        <p
+          class="megan pt-6 w-100 text-2lg text-gray-700 text-opacity-90 whitespace-nowrap"
+        >
           A pseudonym used by Megan Lindholm
         </p>
       </div>
@@ -73,32 +72,39 @@
     </div>
 
     <br />
-
-    <div id="circle">
-      <img
-        src="assets/images/robin_hobb.jpg"
-        alt="Circle Image"
-        class="w-58 h-58 rounded-full object-cover my-7 shadow-xl"
-        data-aos="zoom-out-up"
-        data-aos-duration="3000"
-      />
+    <div class="bio-section" data-aos="zoom-out-up"
+    data-aos-duration="3000">
+      <div id="circle">
+        <img
+          src="assets/images/robin_hobb.jpg"
+          alt="Circle Image"
+          class="w-58 h-58 rounded-full object-cover my-12 shadow-xl"
+        />
+      </div>
+      <h3
+        class="text-6xl font-semibold m-2 biography bg-gray-100 bg-opacity-40"
+        data-aos="flip-left"
+    data-aos-duration="3000"
+      >
+        Biography
+      </h3>
+      <div
+        class="text-2xl m-11 bg-green-100 bg-opacity-40 shadow-xl p-14 rounded-lg"
+      >
+        <p class="mr-4">
+          Robin Hobb, an acclaimed American Fantasy novelist, is known for her
+          remarkable Realm of the Elderlings series. Writing extensively under
+          the name Megan Lindholm, her iconic works include The Farseer Trilogy,
+          celebrating its 25th birthday with a lavish illustrated edition. Other
+          notable works encompass The Liveship Traders Trilogy, The Tawny Many
+          Trilogy, The Rain Wild Chronicles, and The Fitz and the Fool Trilogy.
+          Residing in the Pacific Northwest, she shares her 14-acre pocket farm
+          near Roy with her family, two rescued Belgian Malinois, Ginger and
+          Molly, fifteen chickens, a gander and 8 ducks, numerous volunteers,
+          mallards, and a cat named Little Black Dog.
+        </p>
+      </div>
     </div>
-    <h3 class="text-6xl font-semibold m-2 biography bg-gray-100 bg-opacity-40">Biography</h3>
-    <div class="text-2xl m-11 bg-green-100 bg-opacity-40 shadow-xl p-14 rounded-lg">
-      <p class="mr-4">
-        Robin Hobb, an acclaimed American Fantasy novelist, is known for her
-        remarkable Realm of the Elderlings series. Writing extensively under the
-        name Megan Lindholm, her iconic works include The Farseer Trilogy,
-        celebrating its 25th birthday with a lavish illustrated edition. Other
-        notable works encompass The Liveship Traders Trilogy, The Tawny Many
-        Trilogy, The Rain Wild Chronicles, and The Fitz and the Fool Trilogy.
-        Residing in the Pacific Northwest, she shares her 14-acre pocket farm
-        near Roy with her family, two rescued Belgian Malinois, Ginger and
-        Molly, fifteen chickens, a gander and 8 ducks, numerous volunteers,
-        mallards, and a cat named Little Black Dog.
-      </p>
-    </div>
-
     <div
       class="flex flex-col md:flex-row text-green-900 font-bold bg-green-100 bg-opacity-60 p-8 w-full h-full rounded-md"
     >
@@ -128,10 +134,22 @@
 
     <br />
 
-    <div class="flex flex-wrap justify-center pb-8" data-aos="flip-left" data-aos-duration="3000">
-      <img src="assets/images/fool.jpeg" class="w-60 object-cover m-3" alt="">
-      <img src="assets/images/apprentice.jpeg" class="w-60 object-cover m-3" alt="">
-      <img src="assets/images/molly.webp" class="w-60 object-cover m-3" alt="">
+    <div
+      class="flex flex-wrap justify-center pb-8"
+      data-aos="flip-left"
+      data-aos-duration="3000"
+    >
+      <img src="assets/images/fool.jpeg" class="w-60 object-cover m-3" alt="" />
+      <img
+        src="assets/images/apprentice.jpeg"
+        class="w-60 object-cover m-3"
+        alt=""
+      />
+      <img
+        src="assets/images/molly.webp"
+        class="w-60 object-cover m-3"
+        alt=""
+      />
     </div>
 
     <!-- <blockquote class="border-l-4 border-blue-500 bg-gray-100 p-4 my-4 mb-9">
@@ -142,28 +160,44 @@
       <cite class="block text-right mt-2 text-gray-600">— Nighteyes in "Fool's Errand"</cite>
     </blockquote> -->
 
-    <div class="bg-gradient-to-b from-purple-200 to-green-100 py-8 bg-opacity-50">
+    <div
+      class="bg-gradient-to-b from-purple-200 to-green-100 py-8 bg-opacity-50"
+    >
       <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8 text-center text-white">Reader Reviews</h2>
+        <h2 class="text-3xl font-bold mb-8 text-center text-white">
+          Reader Reviews
+        </h2>
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <!-- Review Card 1 -->
-          <div class="bg-white rounded-lg shadow-md p-6" data-aos="fade-right" data-aos-duration="3000">
+          <div
+            class="bg-white rounded-lg shadow-md p-6"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
             <p class="text-black-800 text-lg italic">
               "Hobb is a remarkable storyteller"
             </p>
             <p class="text-black-600 mt-4">- GUARDIAN</p>
           </div>
-    
+
           <!-- Review Card 2 -->
-          <div class="bg-white rounded-lg shadow-md p-6" data-aos="fade-down" data-aos-duration="3000">
+          <div
+            class="bg-white rounded-lg shadow-md p-6"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
             <p class="text-black-800 text-lg italic">
               "Hobb is one of the great modern fantasy writers"
             </p>
             <p class="text-black-600 mt-4">- THE TIMES</p>
           </div>
-    
+
           <!-- Review Card 3 -->
-          <div class="bg-white rounded-lg shadow-md p-6" data-aos="fade-left" data-aos-duration="3000">
+          <div
+            class="bg-white rounded-lg shadow-md p-6"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             <p class="text-black-800 text-lg italic">
               "Fantasy as it ought to be written"
             </p>
@@ -172,7 +206,6 @@
         </div>
       </div>
     </div>
-    
 
     <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
       <div
