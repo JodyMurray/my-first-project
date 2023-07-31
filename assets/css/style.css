@@ -54,6 +54,8 @@ hr {
 }
 #menu-bar a {
   text-decoration: none;
+  line-height: 2;
+  padding: 10px;
 }
 #menu-bar li:hover {
   transform: scale(1.1);
@@ -97,6 +99,7 @@ hr {
 #castle {
   background-image: url(../images/castle.jpeg);
   background-repeat: no-repeat;
+  object-fit: cover;
   /* height: 500px;
   background-position: center;
   background-repeat: no-repeat;
