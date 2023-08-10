@@ -107,15 +107,7 @@ hr {
   background-size: cover;
   position: relative; */
 }
-/* #summary {
-  font-size: inherit;
-  font-family: inherit;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  text-align: center;
-} */
+
 
 .summary p {
   width: 80%;
@@ -162,6 +154,10 @@ hr {
   50% {
     border-color: #333;
   }
+}
+
+#chronological h2 {
+  font-size: 40px;
 }
 
 .row2 {
@@ -759,9 +755,7 @@ form > h2 {
     margin-left: 25%;
     width: 80%;
   }
-  #order {
-    font-size: 30px;
-  }
+ 
   .book-club {
     display: flex;
     width: 100%;
