@@ -13,6 +13,7 @@ body {
 body h3 {
   font-size: 45px;
 }
+
 /*headings and logo*/
 
 h1,
@@ -30,7 +31,6 @@ h3 {
   position: relative;
   right: 20%;
   bottom: 15px;
-  
 }
 hr {
   border-top: 1px solid #888e8e;
@@ -50,15 +50,16 @@ hr {
 #menu-bar {
   font-weight: bold;
   padding: 35px;
-  margin-bottom: -25px;
+  margin-bottom: -29px;
 }
 #menu-bar a {
   text-decoration: none;
   line-height: 2;
-  padding: 10px;
+  padding: 9px;
 }
 #menu-bar li:hover {
   transform: scale(1.1);
+  transition: 0.6s;
 }
 #menu-bar li {
   list-style-type: none;
@@ -123,8 +124,46 @@ hr {
 
 #early-work {
   font-family: "Nunito", sans-serif;
-  
 }
+
+.typing-effect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Typing effect animation */
+.animated-text {
+  overflow: hidden;
+  border-right: 0.15em solid #333;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  /* animation: typing 4.5s steps(40, end), blink-caret 0.90s step-end ; */
+  animation: typing 4s cubic-bezier(0.8, 0.01, 0.33, 0.99) forwards,
+    blink-caret 0.75s step-end infinite;
+}
+
+/* Keyframes for the typing effect and blinking caret */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #333;
+  }
+}
+
 .row2 {
   display: block;
   flex-wrap: wrap;
