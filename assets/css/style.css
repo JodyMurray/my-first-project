@@ -179,80 +179,14 @@ hr {
   font-size: 24px;
   width: auto;
 }
-/*meetup section styling*/
-.meetup-section {
-  clear: left;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+
+/* Newsletter styles */
+
+.newsletter {
+  height: 45px !important;
 }
-.book-club {
-  background-image: url(../images/dragonbooks.jpeg);
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  object-fit: fill;
-}
-.email {
-  text-align: center;
-  padding: 2%;
-  margin: 2px;
-  font-size: 25px;
-}
-input[type="submit"] {
-  margin-top: 20px;
-  margin-left: 1rem;
-  padding: 8px;
-  background-color: #719b43;
-  color: white;
-  border: none;
-  border-radius: 7px;
-  font-size: 40px;
-}
-#email-field {
-  border: solid 1px #719b43;
-  border-radius: 5px;
-  height: 30px;
-  text-align: left;
-}
-form > p {
-  margin: 40px;
-  color: #4a4a4a;
-  font-size: 24px;
-  box-sizing: content-box;
-  border: 1px solid #888e8e;
-  border-radius: 10px;
-  padding: 2%;
-}
-form > h2 {
-  margin-top: 5%;
-}
-/* meetup times*/
-.meetup-times {
-  box-sizing: content-box;
-  border: 1px solid green;
-  border-radius: 5px;
-  padding: 10px;
-  width: 500px;
-  margin-left: 32.5%;
-  margin-bottom: 35px;
-}
-.map {
-  margin-left: 50px;
-  width: 100%;
-}
-/*form dump styles*/
-#thanks {
-  background-image: url(../images/thanks.jpeg);
-  height: 600px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-blend-mode: darken;
-}
+
+
 /*media queries*/
 /* For large screens sizes from 3840px wide and down */
 @media screen and (max-width: 3840px) {
