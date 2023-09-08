@@ -74,20 +74,6 @@ hr {
   background-size: cover;
 }
 
-.welcome {
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-  color: #4a4a4a;
-  font-weight: bold;
-  margin: 4% 2% 4% 2%;
-  font-size: larger;
-  box-sizing: content-box;
-  border: 1px solid #888e8e;
-  border-radius: 10px;
-  padding: 2%;
-  letter-spacing: 0.5px;
-}
-
 #circle img {
   width: 350px;
   height: 350px;
@@ -101,13 +87,7 @@ hr {
   background-image: url(../images/castle.jpeg);
   background-repeat: no-repeat;
   object-fit: cover;
-  /* height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; */
 }
-
 
 .summary p {
   width: 80%;
@@ -155,11 +135,6 @@ hr {
     border-color: #333;
   }
 }
-
-#chronological h2 {
-  font-size: 40px;
-}
-
 .row2 {
   display: block;
   flex-wrap: wrap;
@@ -264,19 +239,12 @@ hr {
   #video-text {
     font-size: 35px;
   }
-
-  .social-networks {
-    font-size: 25px;
-  }
   #early-work {
     font-size: 40px;
     text-decoration: solid 1px #4a4a4a;
     margin-top: -4%;
   }
   #summary {
-    font-size: 35px;
-  }
-  #chronological {
     font-size: 35px;
   }
   #list lh {
@@ -287,12 +255,6 @@ hr {
     margin: 0;
     width: auto;
     height: auto;
-  }
-  .book-club {
-    display: flex;
-    margin: 0;
-    width: auto;
-    height: 1200px;
   }
   #castle {
     display: flex;
@@ -309,38 +271,9 @@ hr {
   #enter {
     font-size: 50px;
   }
-  .email {
-    font-size: 40px;
-  }
-  #email-field {
-    height: 40px;
-    width: 12%;
-    border: solid 2px #719b43;
-    align-items: center;
-  }
-  .meetup-times {
-    border-radius: 2px;
-    box-sizing: border-box;
-    color: gray;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-size: 40px;
-    width: 40%;
-    text-align: center;
-    margin-left: 30%;
-  }
-  .map {
-    position: absolute;
-    height: 0;
-    left: 3%;
-    padding-bottom: 40%;
-  }
 }
 /* For large to medium screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px) {
-  .meetup-times {
-    margin: 0 auto 40px;
-  }
   #hero-image {
     display: flex;
     margin: 0;
@@ -355,24 +288,6 @@ hr {
     margin: 0;
     width: auto;
     height: 1200px;
-  }
-  .book-club {
-    display: flex;
-    margin: 0;
-    width: 100%;
-  }
-  .map {
-    position: relative;
-    margin-left: 25%;
-    width: 50%;
-    margin-bottom: -30%;
-  }
-  .social-networks {
-    position: relative;
-  }
-
-  footer h2 {
-    position: relative;
   }
 }
 /* For large to medium screens sizes from 1440px wide and down */
@@ -409,11 +324,6 @@ hr {
     justify-content: center;
     background-position: center;
     margin-left: -12%;
-  }
-  .map {
-    width: 70%;
-    position: inherit;
-    margin-left: 9%;
   }
 }
 /* For large to medium screens sizes from 1024px wide and down */
@@ -466,29 +376,12 @@ hr {
   #hero-image {
     width: 100%;
   }
-  .book-club {
-    height: 500px;
-    width: 100%;
-  }
-  .meetup-times {
-    border-radius: 2px;
-    box-sizing: border-box;
-    color: gray;
-    font-size: 20px;
-    margin-left: 20%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    width: 60%;
-  }
   .column2 img {
     margin-right: -8%;
   }
   div iframe {
     width: 100%;
     margin-left: 70px;
-  }
-  #email-field {
-    width: 25%;
   }
   #thanks {
     margin-top: 10%;
@@ -510,11 +403,6 @@ hr {
   header p {
     margin-left: 50px;
     max-width: 30%;
-  }
-  .book-club {
-    display: flex;
-    width: 100%;
-    height: 450px;
   }
   div iframe {
     width: 80%;
@@ -569,24 +457,6 @@ hr {
     display: flex;
     justify-content: center;
   }
-  .meetup-times {
-    border-radius: 2px;
-    box-sizing: border-box;
-    color: gray;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-  }
-  footer h2 {
-    margin-top: 10%;
-    font-size: 25px;
-  }
-  .map {
-    width: 80%;
-    margin-left: 17%;
-    position: inherit;
-  }
   #thanks {
     width: 100%;
   }
@@ -638,15 +508,6 @@ hr {
   #enter {
     font-size: 30px;
   }
-  input[type="submit"] {
-    margin-left: -2px;
-  }
-  .map {
-    position: inherit;
-    height: 0;
-    padding-bottom: 55%;
-    overflow: hidden;
-  }
   .row img {
     height: auto;
     width: 100%;
@@ -672,9 +533,6 @@ hr {
   #video-text {
     margin-top: 10%;
   }
-  footer {
-    font-size: 15px;
-  }
   #castle {
     display: flex;
     width: 100%;
@@ -689,7 +547,6 @@ hr {
     margin-left: 25%;
     width: 80%;
   }
- 
   .book-club {
     display: flex;
     width: 100%;
@@ -703,15 +560,9 @@ hr {
     margin-left: 15px;
     font-size: 35px;
   }
-  #email-field {
-    width: 40%;
-  }
   #thanks {
     height: 400px;
     width: 100%;
-  }
-  .social-networks {
-    font-size: 15px;
   }
 }
 /* For medium to small phone screens sizes from 375 wide and down */
@@ -767,16 +618,6 @@ hr {
   #robin {
     font-size: 20px;
   }
-  #video {
-    padding-bottom: 20%;
-    overflow: hidden;
-    position: relative;
-    width: 80%;
-    height: 80%;
-  }
-  .social-networks {
-    font-size: 10px;
-  }
   #castle {
     display: flex;
     width: 100%;
@@ -786,28 +627,8 @@ hr {
   .column2 img {
     width: 75%;
   }
-  .book-club {
-    display: flex;
-    width: 100%;
-    height: 200px;
-    margin: 0;
-  }
   #enter {
     font-size: 30px;
-  }
-  input[type="submit"] {
-    margin-left: -2px;
-  }
-  #email-field {
-    width: 40%;
-  }
-  .map {
-    position: relative;
-    height: 0;
-    padding-bottom: 55%;
-    overflow: hidden;
-    width: 60%;
-    margin-left: 22%;
   }
   #summary {
     font-size: 20px;
