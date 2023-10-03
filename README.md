@@ -1,10 +1,10 @@
-# robin-hobb-p1
+# Robin Hobb Fan Page P1
 
 <img width="1427" alt="Screenshot 2022-05-12 at 18 29 58" src="https://user-images.githubusercontent.com/101525431/168124214-224bd1a7-dad2-4034-84c5-d776cea53441.png">
 
 This fan page style website was designed to inform people of the author Robin Hobb and her work. Shown through a biography section and a page with her collection of series. Also included is a page for a fictional meetup based in Dublin that fans can apply for.
 
-This website contains three main pages; Home, Collection and Meetups. The Meetup page includes a section to enter your email address to sign up for the mentioned meetings held in Dublin.
+This website contains three main pages; Home, Collection and Newsletter.
 
 Users of this website will be well informed about Robin Hobb through a biography and a video interview, they will see pictures and read summaries of each of her series.
 The target audience of this page is mostly existing fans but new fans of the author are also welcome. This is mentioned so everybody feels welcome and fans can meet likeminded fans of this fantasy world!
@@ -14,6 +14,21 @@ This website is the first of five projects that needs to be completed in order t
 Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
 
 A live version of the site can be found here: https://jodymurray.github.io/my-first-project/
+
+
+### NOTE: This project is now being worked on as an improvement to skills project. Stay tuned to see the finished result.
+- Because of recent changes, the responsive design isn't complete.
+- From originally a pure HTML and CSS project, since graduating with the diploma this project was part of, I've included some Javascript and Tailwind CSS which has really improved it.
+- Below are images of the changes made so far.
+
+<img width="1427" alt="Screenshot 2022-05-12 at 18 29 58" src="assets/images/home.png">
+<img width="1427" alt="Screenshot 2022-05-12 at 18 29 58" src="assets/images/sshome1.png">
+<img width="1427" alt="Screenshot 2022-05-12 at 18 29 58" src="assets/images/sshome2.png">
+
+- Updated footer:
+<img width="1427" alt="Screenshot 2022-05-12 at 18 29 58" src="assets/images/sshome3.png">
+
+
 
 ## Table of Contents
 
@@ -291,4 +306,4 @@ The top screen shot for responsive design was taken from:
 
 Thank you
 
-[Back to top](#robin-hobb-p1)
+[Back to top](#robin-hobb-fan-page-p1)
