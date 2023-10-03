@@ -49,17 +49,17 @@ hr {
 /*navigation links*/
 #menu-bar {
   font-weight: bold;
-  padding: 35px;
-  margin-bottom: -29px;
+  padding: 30px;
+  margin-bottom: -20px;
 }
 #menu-bar a {
   text-decoration: none;
   line-height: 2;
-  padding: 9px;
+  padding: 10px;
 }
-#menu-bar li:hover {
+ul li:hover {
   transform: scale(1.1);
-  transition: 0.6s;
+  transition: 0.6s ease-in-out;
 }
 #menu-bar li {
   list-style-type: none;
@@ -158,9 +158,15 @@ hr {
 /* Newsletter styles */
 
 .newsletter {
-  height: 45px !important;
+  height: 46px !important;
+  margin-right: -7%;
 }
 
+form > button:hover {
+  transform: scale(1.03); 
+  transition: 0.6s ease-in-out;
+  color: #fafafa;
+}
 
 /*media queries*/
 /* For large screens sizes from 3840px wide and down */
